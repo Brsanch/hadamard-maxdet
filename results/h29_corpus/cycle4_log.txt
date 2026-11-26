@@ -1,0 +1,23 @@
+H29 corpus: 39 matrices
+Orrick H29 fingerprint: {'sv_min': 4.000000000000001, 'plateau': 2.804838774119153e-30, 'c1': 393, 'c3': 4, 'c5': 9, 'c7plus': 0, 'is_3val_target': True}
+Orrick H29 score: 8.000
+Top elites (by det):
+  ratio=1.0000  h29_score=8.000
+  ratio=0.9538  h29_score=8.313
+  ratio=0.9467  h29_score=7.750
+  ratio=0.9379  h29_score=7.718
+  ratio=0.9326  h29_score=7.558
+
+=== k2_signature_preserving ===
+  EXAMINED:74267 NOVEL:13756 >baseline:0 max_ratio:0.9029 rate_novel/min:13756
+
+=== k4_3val_target ===
+  EXAMINED:76593 NOVEL:61421 >baseline:0 max_ratio:0.8878 rate_novel/min:61421
+
+=== orrick_2row_6col ===
+  EXAMINED:674 NOVEL:667 >baseline:0 max_ratio:0.9420 rate_novel/min:667
+
+=== 8k_SA_h29tuned ===
+  EXAMINED:11 NOVEL:11 >baseline:0 max_ratio:0.2864 rate_novel/min:10
+
+=== random_sigtargeted ===

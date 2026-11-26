@@ -1,0 +1,59 @@
+band                   anchor        drift steps   in-band?  max ratio   final pl
+  [0.0000, 0.0005)  orrick           8000       False      0.0000     0.09534
+  [0.0000, 0.0005)  orrick           8000       False      0.0000     0.07467
+  [0.0000, 0.0005)  nbr_095             0        True      0.9499     0.00000
+  [0.0000, 0.0005)  nbr_095             0        True      0.9499     0.00044
+  >>> band max ratio = 0.9499
+  [0.0005, 0.0020)  orrick           8000       False      0.0000     0.08546
+  [0.0005, 0.0020)  orrick           8000       False      0.0000     0.10706
+  [0.0005, 0.0020)  nbr_095          8000       False      0.0000     0.10379
+  [0.0005, 0.0020)  nbr_095          8000       False      0.0000     0.08291
+  >>> band max ratio = 0.0000
+  [0.0020, 0.0050)  orrick           8000       False      0.0000     0.07632
+  [0.0020, 0.0050)  orrick           8000       False      0.0000     0.09930
+  [0.0020, 0.0050)  nbr_095          8000       False      0.0000     0.09301
+  [0.0020, 0.0050)  nbr_095             1        True      0.8753     0.00469
+  >>> band max ratio = 0.8753
+  [0.0050, 0.0110)  orrick           8000       False      0.0000     0.10003
+  [0.0050, 0.0110)  orrick           8000       False      0.0000     0.10354
+  [0.0050, 0.0110)  nbr_095             1        True      0.8774     0.00895
+  [0.0050, 0.0110)  nbr_095          8000       False      0.0000     0.09722
+  >>> band max ratio = 0.8774
+  [0.0110, 0.0200)  orrick              0        True      1.0000     0.01985
+  [0.0110, 0.0200)  orrick              0        True      1.0000     0.01997
+  >>> band max ratio = 1.0000
+  [0.0200, 0.0400)  orrick              1        True      0.9453     0.03928
+  [0.0200, 0.0400)  orrick              2        True      0.8054     0.03965
+  [0.0200, 0.0400)  btc              8000       False      0.0000     0.10709
+  [0.0200, 0.0400)  btc              8000       False      0.0000     0.11197
+  >>> band max ratio = 0.9453
+  [0.0400, 0.0800)  orrick              2        True      0.8883     0.07913
+  [0.0400, 0.0800)  orrick              3        True      0.7605     0.07951
+  [0.0400, 0.0800)  btc              8000       False      0.0000     0.12873
+  [0.0400, 0.0800)  btc              8000       False      0.0000     0.11996
+  >>> band max ratio = 0.8883
+  [0.0800, 0.1400)  btc                 0        True      0.9450     0.13965
+  [0.0800, 0.1400)  btc                 0        True      0.9450     0.13789
+  [0.0800, 0.1400)  random           7125        True      0.0962     0.13522
+  [0.0800, 0.1400)  random           5707        True      0.0485     0.13490
+  >>> band max ratio = 0.9450
+
+Total wall: 64.5s
+
+=== Band envelope summary (max ratio per band) ===
+plateau band            max ratio   # in-band runs
+  [0.0000, 0.0005)      0.9499             2
+  [0.0005, 0.0020)        --              0
+  [0.0020, 0.0050)      0.8753             1
+  [0.0050, 0.0110)      0.8774             1
+  [0.0110, 0.0200)      1.0000             2
+  [0.0200, 0.0400)      0.9453             2
+  [0.0400, 0.0800)      0.8883             2
+  [0.0800, 0.1400)      0.9450             4
+
+=== Decisive answer ===
+  Orrick band [0.011, 0.020) max: 1.0000
+  All other bands max:           0.9499
+  >>> Orrick band uniquely reaches Orrick — plateau ∈ [0.011, 0.020) is privileged
+
+Saved.

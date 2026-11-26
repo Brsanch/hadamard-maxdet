@@ -1,0 +1,53 @@
+Corpus: 56 distinct |det| matrices
+
+Elite (≥0.95) in corpus: 9
+
+=== Single-feature filters ===
+  hadamard_defect ≤ 11.3                                        pass=16  precision=0.56  recall=1.00
+  hadamard_defect ≤ 11.5                                        pass=18  precision=0.50  recall=1.00
+  plateau ≤ 0.04                                                pass=19  precision=0.47  recall=1.00
+  count_5plus ≤ 1                                               pass=25  precision=0.36  recall=1.00
+  sv_min ≥ 3.43                                                 pass=13  precision=0.69  recall=1.00
+
+=== Two-feature AND filters ===
+  h_defect≤11.5 AND count_5plus≤1                               pass=16  precision=0.56  recall=1.00
+  h_defect≤11.5 AND plateau≤0.04                                pass=15  precision=0.60  recall=1.00
+  count_5plus≤1 AND plateau≤0.04                                pass=18  precision=0.50  recall=1.00
+
+=== Three-feature AND ===
+  3-AND filter                                                  pass=15  precision=0.60  recall=1.00
+
+=== Composite score: rank by sum of normalized features ===
+  4-feature composite score (z-mean of normalized) corr with ratio: 0.9244
+
+=== CHOSEN FILTER: hadamard_defect ≤ 11.5 AND count_5plus ≤ 1 ===
+  CHOSEN                                                        pass=16  precision=0.56  recall=1.00
+
+=== Wide k=2 search filtered by hadamard_defect + count_5plus ===
+  parent ratio=1.0000  examined=139656  passed_filter=3630
+  parent ratio=0.9810  examined=139656  passed_filter=3054
+  parent ratio=0.9750  examined=139656  passed_filter=2385
+  parent ratio=0.9617  examined=139656  passed_filter=1515
+  parent ratio=0.9605  examined=139656  passed_filter=1282
+  parent ratio=0.9576  examined=139656  passed_filter=904
+  parent ratio=0.9572  examined=139656  passed_filter=1557
+  parent ratio=0.9562  examined=139656  passed_filter=725
+  parent ratio=0.9539  examined=139656  passed_filter=829
+  parent ratio=0.9499  examined=139656  passed_filter=638
+  parent ratio=0.9493  examined=139656  passed_filter=513
+  parent ratio=0.9461  examined=139656  passed_filter=534
+  parent ratio=0.9450  examined=139656  passed_filter=0
+  parent ratio=0.9423  examined=139656  passed_filter=292
+  parent ratio=0.9423  examined=139656  passed_filter=313
+  parent ratio=0.9402  examined=139656  passed_filter=766
+  parent ratio=0.9394  examined=139656  passed_filter=356
+  parent ratio=0.9304  examined=139656  passed_filter=700
+  parent ratio=0.9140  examined=139656  passed_filter=0
+  parent ratio=0.9080  examined=139656  passed_filter=125
+  parent ratio=0.8633  examined=139656  passed_filter=4
+  parent ratio=0.8505  examined=139656  passed_filter=64
+
+Total examined: 3072432  passed filter: 20186  (0.66%)  wall=112s
+>>> ITERATION 2 GLOBAL BEST: 1.0000 via corpus_max
+Saved 0 new ≥0.96 records.
+Done.

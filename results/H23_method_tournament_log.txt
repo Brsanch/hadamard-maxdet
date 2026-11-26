@@ -1,0 +1,42 @@
+Corpus: 55 known dets
+
+=== METHOD: recursive_k2_full_corpus ===
+  EXAMINED: 830277 (18451/s)  PASSED FILTER: 27822 (618.3/s)
+  NOVEL DETS: 1153  ≥0.94: 4  ≥0.98: 0  MAX: 0.9496
+
+=== METHOD: k4_from_top5 ===
+  EXAMINED: 802429 (17832/s)  PASSED FILTER: 8 (0.2/s)
+  NOVEL DETS: 8  ≥0.94: 0  ≥0.98: 0  MAX: 0.8768
+
+=== METHOD: row_swap_from_elite ===
+  EXAMINED: 123370 (2742/s)  PASSED FILTER: 115741 (2572.0/s)
+  NOVEL DETS: 0  ≥0.94: 0  ≥0.98: 0  MAX: 0.0000
+
+=== METHOD: col_neg_plus_k2 ===
+  EXAMINED: 739353 (16430/s)  PASSED FILTER: 13082 (290.7/s)
+  NOVEL DETS: 1319  ≥0.94: 4  ≥0.98: 0  MAX: 0.9496
+
+=== METHOD: hamming_midpoint_pairs ===
+  EXAMINED: 123197 (2738/s)  PASSED FILTER: 84223 (1871.6/s)
+  NOVEL DETS: 33  ≥0.94: 0  ≥0.98: 0  MAX: 0.9390
+
+=== METHOD: k2_from_sub094_basins ===
+  EXAMINED: 765590 (17013/s)  PASSED FILTER: 354 (7.9/s)
+  NOVEL DETS: 125  ≥0.94: 0  ≥0.98: 0  MAX: 0.9284
+
+=== METHOD: 2x2_corner_from_elite ===
+  EXAMINED: 797719 (17727/s)  PASSED FILTER: 0 (0.0/s)
+  NOVEL DETS: 0  ≥0.94: 0  ≥0.98: 0  MAX: 0.0000
+
+=== TOURNAMENT RANKING (by ≥0.94/min, then by max_ratio) ===
+method                               examined  pass novel  ≥.94    max  094/min
+  recursive_k2_full_corpus             830277 27822  1153     4 0.9496     5.33
+  col_neg_plus_k2                      739353 13082  1319     4 0.9496     5.33
+  hamming_midpoint_pairs               123197 84223    33     0 0.9390     0.00
+  k2_from_sub094_basins                765590   354   125     0 0.9284     0.00
+  k4_from_top5                         802429     8     8     0 0.8768     0.00
+  row_swap_from_elite                  123370 115741     0     0 0.0000     0.00
+  2x2_corner_from_elite                797719     0     0     0 0.0000     0.00
+
+>>> WINNER: recursive_k2_full_corpus  (5.33 ≥.94 hits/min)
+Done.

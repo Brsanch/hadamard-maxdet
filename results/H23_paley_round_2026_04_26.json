@@ -1,0 +1,16 @@
+{
+  "global_best_ratio": 0.981,
+  "global_best_via": "previous_round",
+  "top_paley_seeds": [
+    {
+      "idx": 0,
+      "det": 1521681143169024,
+      "ratio": 0.5474761638254226,
+      "ij": [
+        0,
+        0
+      ]
+    }
+  ],
+  "new_records": []
+}

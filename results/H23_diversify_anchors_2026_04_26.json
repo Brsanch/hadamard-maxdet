@@ -1,0 +1,494 @@
+{
+  "orrick": {
+    "0.0-0.0005": {
+      "count": 50,
+      "max_svd_ratio": 0.9499186531796043,
+      "max_bareiss_ratio": 0.9499186531795997,
+      "best_flips": [
+        3,
+        0,
+        4,
+        0
+      ],
+      "best_det": 2640248832000000
+    },
+    "0.0005-0.002": {
+      "count": 50,
+      "max_svd_ratio": 0.8649642781353918,
+      "max_bareiss_ratio": 0.8649642781353895,
+      "best_flips": [
+        0,
+        0,
+        2,
+        13
+      ],
+      "best_det": 2404122624000000
+    },
+    "0.002-0.005": {
+      "count": 50,
+      "max_svd_ratio": 0.8769894602815332,
+      "max_bareiss_ratio": 0.8769894602815307,
+      "best_flips": [
+        0,
+        0,
+        2,
+        11
+      ],
+      "best_det": 2437545984000000
+    },
+    "0.005-0.011": {
+      "count": 50,
+      "max_svd_ratio": 0.9181580250406811,
+      "max_bareiss_ratio": 0.9181580250406735,
+      "best_flips": [
+        1,
+        8,
+        6,
+        8
+      ],
+      "best_det": 2551971840000000
+    },
+    "0.011-0.02": {
+      "count": 50,
+      "max_svd_ratio": 0.9605291080144331,
+      "max_bareiss_ratio": 0.9605291080144303,
+      "best_flips": [
+        3,
+        0,
+        11,
+        2
+      ],
+      "best_det": 2669740032000000
+    },
+    "0.02-0.04": {
+      "count": 50,
+      "max_svd_ratio": 0.9575581806606829,
+      "max_bareiss_ratio": 0.9575581806606777,
+      "best_flips": [
+        0,
+        4,
+        7,
+        1
+      ],
+      "best_det": 2661482496000000
+    },
+    "0.04-0.08": {
+      "count": 50,
+      "max_svd_ratio": 0.925797552521762,
+      "max_bareiss_ratio": 0.9257975525217514,
+      "best_flips": [
+        1,
+        8,
+        10,
+        4
+      ],
+      "best_det": 2573205504000000
+    },
+    "0.08-0.14": {
+      "count": 0,
+      "max_bareiss_ratio": null
+    },
+    "0.14-0.2": {
+      "count": 0,
+      "max_bareiss_ratio": null
+    },
+    "0.2-0.5": {
+      "count": 0,
+      "max_bareiss_ratio": null
+    }
+  },
+  "btc": {
+    "0.0-0.0005": {
+      "count": 0,
+      "max_bareiss_ratio": null
+    },
+    "0.0005-0.002": {
+      "count": 0,
+      "max_bareiss_ratio": null
+    },
+    "0.002-0.005": {
+      "count": 0,
+      "max_bareiss_ratio": null
+    },
+    "0.005-0.011": {
+      "count": 0,
+      "max_bareiss_ratio": null
+    },
+    "0.011-0.02": {
+      "count": 0,
+      "max_bareiss_ratio": null
+    },
+    "0.02-0.04": {
+      "count": 0,
+      "max_bareiss_ratio": null
+    },
+    "0.04-0.08": {
+      "count": 0,
+      "max_bareiss_ratio": null
+    },
+    "0.08-0.14": {
+      "count": 50,
+      "max_svd_ratio": 0.9139805714555211,
+      "max_bareiss_ratio": 0.9139805714555186,
+      "best_flips": [
+        1,
+        11,
+        5,
+        4
+      ],
+      "best_det": 2540360827928576
+    },
+    "0.14-0.2": {
+      "count": 50,
+      "max_svd_ratio": 0.8109585516964967,
+      "max_bareiss_ratio": 0.8109585516964938,
+      "best_flips": [
+        7,
+        4,
+        14,
+        22
+      ],
+      "best_det": 2254016553680896
+    },
+    "0.2-0.5": {
+      "count": 0,
+      "max_bareiss_ratio": null
+    }
+  },
+  "kms": {
+    "0.0-0.0005": {
+      "count": 0,
+      "max_bareiss_ratio": null
+    },
+    "0.0005-0.002": {
+      "count": 0,
+      "max_bareiss_ratio": null
+    },
+    "0.002-0.005": {
+      "count": 0,
+      "max_bareiss_ratio": null
+    },
+    "0.005-0.011": {
+      "count": 0,
+      "max_bareiss_ratio": null
+    },
+    "0.011-0.02": {
+      "count": 0,
+      "max_bareiss_ratio": null
+    },
+    "0.02-0.04": {
+      "count": 0,
+      "max_bareiss_ratio": null
+    },
+    "0.04-0.08": {
+      "count": 1,
+      "max_svd_ratio": 0.7455200056589106,
+      "max_bareiss_ratio": 0.7455200056589092,
+      "best_flips": [
+        9,
+        16,
+        14,
+        19
+      ],
+      "best_det": 2072133563842560
+    },
+    "0.08-0.14": {
+      "count": 50,
+      "max_svd_ratio": 0.8335044459220483,
+      "max_bareiss_ratio": 0.8335044459220485,
+      "best_flips": [
+        1,
+        9,
+        7,
+        8
+      ],
+      "best_det": 2316681678422016
+    },
+    "0.14-0.2": {
+      "count": 50,
+      "max_svd_ratio": 0.84132803583976,
+      "max_bareiss_ratio": 0.8413280358397586,
+      "best_flips": [
+        5,
+        2,
+        9,
+        5
+      ],
+      "best_det": 2338426934263808
+    },
+    "0.2-0.5": {
+      "count": 3,
+      "max_svd_ratio": 0.7662186206408712,
+      "max_bareiss_ratio": 0.7662186206408714,
+      "best_flips": [
+        13,
+        20,
+        16,
+        14
+      ],
+      "best_det": 2129664273285120
+    }
+  },
+  "smart_2val": {
+    "0.0-0.0005": {
+      "count": 43,
+      "max_svd_ratio": 0.9139138431067417,
+      "max_bareiss_ratio": 0.9139138431067412,
+      "best_flips": [
+        2,
+        1,
+        12,
+        2
+      ],
+      "best_det": 2540175360000000
+    },
+    "0.0005-0.002": {
+      "count": 50,
+      "max_svd_ratio": 0.9460988894390615,
+      "max_bareiss_ratio": 0.9460988894390606,
+      "best_flips": [
+        7,
+        1,
+        11,
+        2
+      ],
+      "best_det": 2629632000000000
+    },
+    "0.002-0.005": {
+      "count": 50,
+      "max_svd_ratio": 0.8895097969866331,
+      "max_bareiss_ratio": 0.8895097969866308,
+      "best_flips": [
+        2,
+        13,
+        11,
+        2
+      ],
+      "best_det": 2472345600000000
+    },
+    "0.005-0.011": {
+      "count": 50,
+      "max_svd_ratio": 0.974959326589807,
+      "max_bareiss_ratio": 0.9749593265897998,
+      "best_flips": [
+        2,
+        12,
+        12,
+        2
+      ],
+      "best_det": 2709848064000000
+    },
+    "0.011-0.02": {
+      "count": 50,
+      "max_svd_ratio": 0.9495508240786609,
+      "max_bareiss_ratio": 0.9495508240786589,
+      "best_flips": [
+        10,
+        6,
+        12,
+        2
+      ],
+      "best_det": 2639226470400000
+    },
+    "0.02-0.04": {
+      "count": 50,
+      "max_svd_ratio": 0.9572044988328506,
+      "max_bareiss_ratio": 0.95720449883285,
+      "best_flips": [
+        3,
+        0,
+        7,
+        1
+      ],
+      "best_det": 2660499456000000
+    },
+    "0.04-0.08": {
+      "count": 50,
+      "max_svd_ratio": 0.9492678786163987,
+      "max_bareiss_ratio": 0.9492678786163967,
+      "best_flips": [
+        2,
+        12,
+        7,
+        1
+      ],
+      "best_det": 2638440038400000
+    },
+    "0.08-0.14": {
+      "count": 0,
+      "max_bareiss_ratio": null
+    },
+    "0.14-0.2": {
+      "count": 0,
+      "max_bareiss_ratio": null
+    },
+    "0.2-0.5": {
+      "count": 0,
+      "max_bareiss_ratio": null
+    }
+  },
+  "smart_3val": {
+    "0.0-0.0005": {
+      "count": 0,
+      "max_bareiss_ratio": null
+    },
+    "0.0005-0.002": {
+      "count": 0,
+      "max_bareiss_ratio": null
+    },
+    "0.002-0.005": {
+      "count": 0,
+      "max_bareiss_ratio": null
+    },
+    "0.005-0.011": {
+      "count": 0,
+      "max_bareiss_ratio": null
+    },
+    "0.011-0.02": {
+      "count": 0,
+      "max_bareiss_ratio": null
+    },
+    "0.02-0.04": {
+      "count": 0,
+      "max_bareiss_ratio": null
+    },
+    "0.04-0.08": {
+      "count": 0,
+      "max_bareiss_ratio": null
+    },
+    "0.08-0.14": {
+      "count": 50,
+      "max_svd_ratio": 0.851318367781945,
+      "max_bareiss_ratio": 0.8513183677819434,
+      "best_flips": [
+        0,
+        5,
+        3,
+        22
+      ],
+      "best_det": 2366194535366656
+    },
+    "0.14-0.2": {
+      "count": 50,
+      "max_svd_ratio": 0.855493417462454,
+      "max_bareiss_ratio": 0.8554934174624508,
+      "best_flips": [
+        3,
+        22,
+        15,
+        19
+      ],
+      "best_det": 2377798865911808
+    },
+    "0.2-0.5": {
+      "count": 50,
+      "max_svd_ratio": 0.8007299630756177,
+      "max_bareiss_ratio": 0.8007299630756172,
+      "best_flips": [
+        8,
+        16,
+        22,
+        2
+      ],
+      "best_det": 2225586730696704
+    }
+  },
+  "plateau_nbr_095": {
+    "0.0-0.0005": {
+      "count": 50,
+      "max_svd_ratio": 0.8930466152649079,
+      "max_bareiss_ratio": 0.8930466152649077,
+      "best_flips": [
+        0,
+        4,
+        1,
+        4
+      ],
+      "best_det": 2482176000000000
+    },
+    "0.0005-0.002": {
+      "count": 50,
+      "max_svd_ratio": 0.9422791256985243,
+      "max_bareiss_ratio": 0.9422791256985216,
+      "best_flips": [
+        2,
+        11,
+        2,
+        12
+      ],
+      "best_det": 2619015168000000
+    },
+    "0.002-0.005": {
+      "count": 50,
+      "max_svd_ratio": 0.93039541628351,
+      "max_bareiss_ratio": 0.9303954162835113,
+      "best_flips": [
+        7,
+        1,
+        8,
+        1
+      ],
+      "best_det": 2585985024000000
+    },
+    "0.005-0.011": {
+      "count": 50,
+      "max_svd_ratio": 0.9538798896512746,
+      "max_bareiss_ratio": 0.9538798896512697,
+      "best_flips": [
+        1,
+        8,
+        2,
+        11
+      ],
+      "best_det": 2651258880000000
+    },
+    "0.011-0.02": {
+      "count": 50,
+      "max_svd_ratio": 1.0000000000000024,
+      "max_bareiss_ratio": 1.0,
+      "best_flips": [
+        0,
+        3,
+        0,
+        4
+      ],
+      "best_det": 2779447296000000
+    },
+    "0.02-0.04": {
+      "count": 50,
+      "max_svd_ratio": 0.9575581806606829,
+      "max_bareiss_ratio": 0.9575581806606777,
+      "best_flips": [
+        0,
+        3,
+        7,
+        1
+      ],
+      "best_det": 2661482496000000
+    },
+    "0.04-0.08": {
+      "count": 50,
+      "max_svd_ratio": 0.9257975525217532,
+      "max_bareiss_ratio": 0.9257975525217514,
+      "best_flips": [
+        0,
+        3,
+        13,
+        11
+      ],
+      "best_det": 2573205504000000
+    },
+    "0.08-0.14": {
+      "count": 0,
+      "max_bareiss_ratio": null
+    },
+    "0.14-0.2": {
+      "count": 0,
+      "max_bareiss_ratio": null
+    },
+    "0.2-0.5": {
+      "count": 0,
+      "max_bareiss_ratio": null
+    }
+  }
+}

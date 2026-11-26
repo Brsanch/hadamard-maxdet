@@ -1,0 +1,26 @@
+Orrick signed Gram: {-3: 4, 1: 393, 5: 9}
+Orrick polarization score: 1.0000 (target: 1.0 = perfect match)
+
+=== k=2 of Orrick: polarization vs det ===
+Tested 294092 candidates in 224s
+
+Polarization vs max det/baseline ratio:
+polarization     count   max ratio  mean ratio
+         0.865       739      0.8801      0.8642
+         0.867    283866      0.9538      0.8727
+         0.995        18      0.8750      0.8750
+         0.998       792      0.8839      0.8622
+         1.000      8677      0.9308      0.8692
+Traceback (most recent call last):
+  File "/tmp/h29_polarization_experiment.py", line 83, in <module>
+    corr = float(np.corrcoef(pols, ratios)[0, 1])
+                 ~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.14/site-packages/numpy/lib/_function_base_impl.py", line 3015, in corrcoef
+    c = cov(x, y, rowvar, dtype=dtype)
+  File "/opt/homebrew/lib/python3.14/site-packages/numpy/lib/_function_base_impl.py", line 2864, in cov
+    avg, w_sum = average(X, axis=1, weights=w, returned=True)
+                 ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.14/site-packages/numpy/lib/_function_base_impl.py", line 596, in average
+    if scl.shape != avg_as_array.shape:
+       ^^^^^^^^^
+AttributeError: 'float' object has no attribute 'shape'

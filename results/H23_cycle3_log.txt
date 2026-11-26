@@ -1,0 +1,34 @@
+Corpus: 55
+
+=== k2_then_k2 ===
+  EXAMINED:24652 PASSED:333 NOVEL:221 ≥.94:0 MAX:0.9351 RATE:0.00/min
+
+=== genetic_crossover ===
+  EXAMINED:89220 PASSED:61294 NOVEL:33 ≥.94:0 MAX:0.9390 RATE:0.00/min
+
+=== subblock_swap ===
+  EXAMINED:93413 PASSED:79707 NOVEL:22 ≥.94:0 MAX:0.9390 RATE:0.00/min
+
+=== k6_2val_filter ===
+  EXAMINED:5 PASSED:0 NOVEL:0 ≥.94:0 MAX:0.0000 RATE:0.00/min
+
+=== short_sa_from_elite ===
+  EXAMINED:3454 PASSED:0 NOVEL:0 ≥.94:0 MAX:0.0000 RATE:0.00/min
+
+=== class_pair_bridge ===
+  EXAMINED:75176 PASSED:75176 NOVEL:0 ≥.94:0 MAX:0.0000 RATE:0.00/min
+
+=== transpose_plus_k2 ===
+  EXAMINED:535350 PASSED:8936 NOVEL:1370 ≥.94:4 MAX:0.9496 RATE:6.86/min
+
+=== CYCLE 3 RANKING ===
+  transpose_plus_k2        ex= 535350 ≥.94=  4 max=0.9496 rate=6.86/min
+  genetic_crossover        ex=  89220 ≥.94=  0 max=0.9390 rate=0.00/min
+  subblock_swap            ex=  93413 ≥.94=  0 max=0.9390 rate=0.00/min
+  k2_then_k2               ex=  24652 ≥.94=  0 max=0.9351 rate=0.00/min
+  k6_2val_filter           ex=      5 ≥.94=  0 max=0.0000 rate=0.00/min
+  short_sa_from_elite      ex=   3454 ≥.94=  0 max=0.0000 rate=0.00/min
+  class_pair_bridge        ex=  75176 ≥.94=  0 max=0.0000 rate=0.00/min
+
+No > 0.9810. Best in cycle 3: 0.9496
+Done.

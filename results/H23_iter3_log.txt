@@ -1,0 +1,33 @@
+Corpus: 56 matrices
+
+=== Iteration 3 feature correlations with ratio ===
+  hadamard_defect       -0.802  ████████████████████████
+  sv_min                +0.790  ███████████████████████
+  count_5plus           -0.766  ██████████████████████
+  count_1               +0.763  ██████████████████████
+  sv_cond               -0.726  █████████████████████
+  sv_top4_var           -0.706  █████████████████████
+  v_min_max             +0.480  ██████████████
+  rw_max_abs            -0.455  █████████████
+  v_min_l4              +0.430  ████████████
+  sign_balance          +0.429  ████████████
+  plateau               -0.426  ████████████
+  sv_gap_max            +0.412  ████████████
+  sv_gap_mid            -0.385  ███████████
+  v_min_entropy         -0.362  ██████████
+  cw_max_abs            -0.358  ██████████
+  rw_mean_abs           -0.173  █████
+  sv_gap_min            -0.082  ██
+
+=== Greedy feature-subset for max composite correlation ===
+  step  added_feat                composite_corr  delta
+     1  hadamard_defect           +0.8024  +0.8024
+     2  count_1                   +0.9243  +0.1219
+     3  plateau                   +0.9438  +0.0195
+     4  sv_min                    +0.9633  +0.0195
+
+Final composite (4 features): corr=0.9633
+Features used: ['hadamard_defect', 'count_1', 'plateau', 'sv_min']
+
+Filter (score ≥ 0.667): pass=12  precision=0.75  recall=1.00
+Done.

@@ -1,0 +1,24 @@
+k=3 sample enum from 0.9810 anchor, 3000000 samples
+  progress:    150000/3000000 (5%)  best=0.9810  rate=37287/s  eta=76s
+  progress:    300000/3000000 (10%)  best=0.9810  rate=37445/s  eta=72s
+  progress:    450000/3000000 (15%)  best=0.9810  rate=37461/s  eta=68s
+  progress:    600000/3000000 (20%)  best=0.9810  rate=37515/s  eta=64s
+  progress:    750000/3000000 (25%)  best=0.9810  rate=37516/s  eta=60s
+  progress:    900000/3000000 (30%)  best=0.9810  rate=37486/s  eta=56s
+  progress:   1050000/3000000 (35%)  best=0.9810  rate=37505/s  eta=52s
+  progress:   1200000/3000000 (40%)  best=0.9810  rate=37508/s  eta=48s
+  progress:   1350000/3000000 (45%)  best=0.9810  rate=37514/s  eta=44s
+  progress:   1500000/3000000 (50%)  best=0.9810  rate=37515/s  eta=40s
+  progress:   1650000/3000000 (55%)  best=0.9810  rate=37520/s  eta=36s
+  progress:   1800000/3000000 (60%)  best=0.9810  rate=37520/s  eta=32s
+  progress:   1950000/3000000 (65%)  best=0.9810  rate=37536/s  eta=28s
+  progress:   2100000/3000000 (70%)  best=0.9810  rate=37542/s  eta=24s
+  progress:   2250000/3000000 (75%)  best=0.9810  rate=37552/s  eta=20s
+  progress:   2400000/3000000 (80%)  best=0.9810  rate=37563/s  eta=16s
+  progress:   2550000/3000000 (85%)  best=0.9810  rate=37561/s  eta=12s
+  progress:   2700000/3000000 (90%)  best=0.9810  rate=37571/s  eta=8s
+  progress:   2850000/3000000 (95%)  best=0.9810  rate=37573/s  eta=4s
+
+Done: 3000000 samples in 80s
+Best k=3 from 0.9810: ratio=0.9810  (2,726,756,352,000,000)
+Beats-anchor improvements: 0

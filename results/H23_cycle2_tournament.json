@@ -1,0 +1,75 @@
+{
+  "results": [
+    {
+      "method": "k2_score_guided",
+      "examined": 79542,
+      "passed": 2563,
+      "novel": 858,
+      "above_094": 4,
+      "max_ratio": 0.9495508240786589,
+      "rate_094_per_min": 6.857018655963583,
+      "wall": 35.00063395500183
+    },
+    {
+      "method": "row_neg_plus_k2",
+      "examined": 554846,
+      "passed": 9936,
+      "novel": 1214,
+      "above_094": 3,
+      "max_ratio": 0.9480795076748957,
+      "rate_094_per_min": 5.142847263588712,
+      "wall": 35.00006723403931
+    },
+    {
+      "method": "signature_constrained_k2",
+      "examined": 4713,
+      "passed": 351,
+      "novel": 19,
+      "above_094": 1,
+      "max_ratio": 0.9431986984508736,
+      "rate_094_per_min": 1.7141136731361661,
+      "wall": 35.00351285934448
+    },
+    {
+      "method": "majority_blend",
+      "examined": 87441,
+      "passed": 84584,
+      "novel": 7,
+      "above_094": 0,
+      "max_ratio": 0.9390111056093938,
+      "rate_094_per_min": 0.0,
+      "wall": 35.000365018844604
+    },
+    {
+      "method": "three_flip_one_row",
+      "examined": 611295,
+      "passed": 13,
+      "novel": 4,
+      "above_094": 0,
+      "max_ratio": 0.9375397892056306,
+      "rate_094_per_min": 0.0,
+      "wall": 35.000017166137695
+    },
+    {
+      "method": "k4_2val_only",
+      "examined": 235,
+      "passed": 0,
+      "novel": 0,
+      "above_094": 0,
+      "max_ratio": 0,
+      "rate_094_per_min": 0.0,
+      "wall": 35.1749792098999
+    },
+    {
+      "method": "cyclic_shift_plus_k2",
+      "examined": 574008,
+      "passed": 0,
+      "novel": 0,
+      "above_094": 0,
+      "max_ratio": 0,
+      "rate_094_per_min": 0.0,
+      "wall": 35.000003814697266
+    }
+  ],
+  "all_novel_records_count": 8
+}

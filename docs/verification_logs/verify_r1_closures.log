@@ -1,0 +1,61 @@
+# Hadamard MaxDet Verification Log: scripts/verify_r1_closures.py
+# Date: 2026-11-26T20:04:46Z
+# Python: Python 3.14.8
+# NumPy / SymPy: 2.4.1 1.14.0
+
+=== Order n = 29: 175 low-trace signatures ===
+Total signatures with tr(G^2) < 25697: 175
+  No spread placement: 2 [(377, 29, 0), (376, 30, 0)]
+  No perfect-square spread placement: 139
+  With >= 1 perfect-square spread placement: 34 (44 placements)
+    Above UB (>= 329): 26
+    Below LB (< 320):  7
+    In gap [320, 329): 11
+  (394, 6,6) p=( 0,2)  mult=328.343  -> Hasse-Minkowski fails {2: -1, 3: -1}
+  (389,13,4) p=(12,0)  mult=326.264  -> Column eq: 3 types, all force identical -3/+5 pairs
+  (389,12,5) p=(12,1)  mult=322.426  -> Column eq: 4 types, all force identical +5 pairs
+  (394, 4,8) p=( 4,4)  mult=322.426  -> Column eq: 0 solutions
+  (391,11,4) p=( 3,4)  mult=322.291  -> Column eq: 0 solutions
+  (393, 7,6) p=( 7,4)  mult=322.286  -> Hasse-Minkowski fails {2: -1, 3: -1}
+  (391,10,5) p=( 1,4)  mult=322.028  -> Hasse-Minkowski fails {2: -1, 3: -1}
+  (389,14,3) p=(14,3)  mult=322.000  -> Exact integer Farkas (20 col types, y=[-18, 0, -1, -3, 1, 0, 0, 1, 0, 0], min y^T A_j=0, y^T b=-24)
+  (393, 8,5) p=( 8,5)  mult=322.000  -> Exact integer Farkas (45 col types, y=[0, 0, 0, 7, 0, 0, -1, 0, 0, -2], min y^T A_j=0, y^T b=-690)
+  (392, 6,8) p=( 0,5)  mult=320.450  -> Hasse-Minkowski fails {2: -1, 3: -1}
+  (393, 7,6) p=( 6,6)  mult=320.000  -> Column eq: 11 types, all force identical -3 pairs
+n = 29 VERIFIED in 18.92s: all 11 gap candidates eliminated.
+
+=== Order n = 33: shifted-block-diagonal (G - J_33 block-diagonal) {-7, -3, 1, 5, 9} enumeration ===
+  lambda_1 = 0 block (9, -1): sqrt(det_ub)/2^74 = 307.5469 < 441
+  lambda_1 = 0 block (5, -2): sqrt(det_ub)/2^74 = 223.6068 < 441
+  lambda_1 < 0 blocks: max sqrt(det_ub)/2^74 = 266.3434 < 267 < 441
+  Exact integer DFS (weights in {-1, +1}):       3,764 complete A>0 configs >= threshold (54,991 visited search-tree nodes) -> 12 squares
+  Exact integer DFS (weights in {-2, -1, +1, +2}): 9,220 complete A>0 configs >= threshold (659,380 visited search-tree nodes) -> 24 squares
+  [ 1] mult=488.3730*2^74  blocks={(2, -1): 5, (3, 1): 1} -> Hasse-Minkowski fails {2: -1, 7: -1}
+  [ 2] mult=488.2538*2^74  blocks={(2, -1): 8, (2, 1): 1} -> Column eq: 0 solutions
+  [ 3] mult=473.2306*2^74  blocks={(2, 1): 9} -> Column eq: forced_identical_singletons_c=15 (1 types)
+  [ 4] mult=471.3821*2^74  blocks={(2, -2): 1, (2, -1): 11} -> Hasse-Minkowski fails {5: -1, 7: -1}
+  [ 5] mult=466.0256*2^74  blocks={(2, -2): 2, (2, -1): 5, (3, -1): 1} -> Hasse-Minkowski fails {3: -1, 7: -1}
+  [ 6] mult=465.7190*2^74  blocks={(3, -1): 1, (2, 1): 6, (3, 1): 1} -> Hasse-Minkowski fails {3: -1, 7: -1}
+  [ 7] mult=461.3203*2^74  blocks={(3, -1): 2, (5, -1): 1} -> Hasse-Minkowski fails {2: -1, 3: -1}
+  [ 8] mult=459.4533*2^74  blocks={(2, -1): 12, (3, -1): 1, (2, 1): 3} -> Survives col eq (9 types) -> exact moment obstruction
+  [ 9] mult=459.3750*2^74  blocks={(2, -2): 2, (3, 1): 1, (2, 2): 1} -> Column eq: forced_identical_rows_in_block_(2, -2) (2 types)
+  [10] mult=457.6621*2^74  blocks={(2, -1): 13, (2, 1): 2, (3, 1): 1} -> Survives col eq (3 types) -> exact moment obstruction
+  [11] mult=456.8115*2^74  blocks={(2, -2): 1, (4, -1): 1, (2, 1): 2, (2, 2): 1} -> Hasse-Minkowski fails {2: -1, 3: -1, 5: -1, 7: -1}
+  [12] mult=456.5149*2^74  blocks={(4, -1): 3} -> Hasse-Minkowski fails {2: -1, 5: -1}
+  [13] mult=455.6250*2^74  blocks={(3, -1): 1, (2, 2): 3} -> Hasse-Minkowski fails {3: -1, 5: -1}
+  [14] mult=455.6250*2^74  blocks={(6, -1): 1} -> Hasse-Minkowski fails {2: -1, 3: -1}
+  [15] mult=452.8965*2^74  blocks={(2, -1): 7, (2, 1): 3, (3, 1): 1, (2, 2): 1} -> Hasse-Minkowski fails {3: -1, 7: -1}
+  [16] mult=451.4907*2^74  blocks={(2, -1): 3, (2, 1): 2, (3, 1): 1, (2, 2): 2} -> Hasse-Minkowski fails {3: -1, 7: -1}
+  [17] mult=450.6958*2^74  blocks={(2, -1): 5, (3, -1): 1, (3, 1): 2, (2, 2): 1} -> Hasse-Minkowski fails {2: -1, 7: -1}
+  [18] mult=450.5858*2^74  blocks={(2, -1): 8, (3, -1): 1, (2, 1): 1, (3, 1): 1, (2, 2): 1} -> Column eq: 0 solutions
+  [19] mult=449.1994*2^74  blocks={(2, -1): 11, (5, -1): 1} -> Hasse-Minkowski fails {2: -1, 7: -1}
+  [20] mult=448.5832*2^74  blocks={(2, -1): 6, (2, 1): 3, (5, 1): 1} -> Hasse-Minkowski fails {2: -1, 3: -1}
+  [21] mult=445.1317*2^74  blocks={(2, -1): 1, (3, 1): 4, (2, 2): 1} -> Hasse-Minkowski fails {2: -1, 5: -1}
+  [22] mult=444.7491*2^74  blocks={(2, -1): 7, (6, 1): 1} -> Hasse-Minkowski fails {2: -1, 7: -1}
+  [23] mult=443.6537*2^74  blocks={(2, -1): 7, (4, -1): 1, (2, 2): 2} -> Hasse-Minkowski fails {2: -1, 3: -1}
+  [24] mult=442.8606*2^74  blocks={(2, -2): 4, (2, -1): 1, (2, 1): 4} -> Column eq: 0 solutions
+  Survivor 1 [13*(2,-1) + 2*(2,+1) + 1*(3,+1)]: 3 types -> (n0,n1,n2)=(8,13,12), 218 != 195
+  Survivor 2 [12*(2,-1) + 3*(2,+1) + 1*(3,-1)]: 9 types -> max sum(sA*sB) <= 12*6 = 72 < 144
+n = 33 VERIFIED in 2.76s: all 9,220 complete A>0 configurations >= 441*2^74 eliminated (659,380 visited search-tree nodes, 0 survivors).
+
+ALL R1 CLOSURES VERIFIED in 21.68s.

@@ -1,0 +1,34 @@
+Corpus: 55
+
+=== long_sa_from_elite_5k ===
+  EXAMINED:19 PASSED:0 NOVEL:0 ≥.94:0 MAX:0.0000 RATE:0.00/min
+
+=== plateau_targeting_sa ===
+  EXAMINED:354 PASSED:0 NOVEL:0 ≥.94:0 MAX:0.0000 RATE:0.00/min
+
+=== orrick_4x4_random_block ===
+  EXAMINED:702247 PASSED:200 NOVEL:40 ≥.94:4 MAX:0.9496 RATE:6.86/min
+
+=== orrick_perm_plus_k2 ===
+  EXAMINED:436311 PASSED:31587 NOVEL:156 ≥.94:0 MAX:0.9390 RATE:0.00/min
+
+=== score_max_sa_from_elite_2k ===
+  EXAMINED:346 PASSED:0 NOVEL:0 ≥.94:0 MAX:0.0000 RATE:0.00/min
+
+=== block_hadamard_embed ===
+  EXAMINED:551339 PASSED:0 NOVEL:0 ≥.94:0 MAX:0.0000 RATE:0.00/min
+
+=== QR23_circulant_construction ===
+  EXAMINED:357732 PASSED:0 NOVEL:0 ≥.94:0 MAX:0.0000 RATE:0.00/min
+
+=== CYCLE 4 RANKING ===
+  orrick_4x4_random_block          ex= 702247 ≥.94=  4 max=0.9496 rate=6.86/min
+  orrick_perm_plus_k2              ex= 436311 ≥.94=  0 max=0.9390 rate=0.00/min
+  long_sa_from_elite_5k            ex=     19 ≥.94=  0 max=0.0000 rate=0.00/min
+  plateau_targeting_sa             ex=    354 ≥.94=  0 max=0.0000 rate=0.00/min
+  score_max_sa_from_elite_2k       ex=    346 ≥.94=  0 max=0.0000 rate=0.00/min
+  block_hadamard_embed             ex= 551339 ≥.94=  0 max=0.0000 rate=0.00/min
+  QR23_circulant_construction      ex= 357732 ≥.94=  0 max=0.0000 rate=0.00/min
+
+Best in cycle 4: 0.9496
+Done.

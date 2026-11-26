@@ -1,0 +1,16 @@
+Generating 576 Paley H24 deletions...
+Generated 576 deletions in 0s
+Top 10 distinct |det|:
+  ratio=0.5475  pl=0.00000  ij=(0, 0)  |G|={1: 253}
+
+Total distinct |det| values: 1
+
+Best Paley deletion seed: ratio=0.5475
+
+=== k=2 recurse from top 5 Paley seeds ===
+Known |det| in corpus: 49
+
+--- Paley seed 0 ratio=0.5475 (3s) ---
+
+>>> PALEY ROUND BEST (excluding 1.0): 0.9810 via previous_round
+Done.

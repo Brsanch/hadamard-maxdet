@@ -1,0 +1,75 @@
+{
+  "results": [
+    {
+      "method": "transpose_plus_k2",
+      "examined": 535350,
+      "passed": 8936,
+      "novel": 1370,
+      "above_094": 4,
+      "max_ratio": 0.9495508240786589,
+      "rate_094_per_min": 6.857135850563202,
+      "wall": 35.000035762786865
+    },
+    {
+      "method": "genetic_crossover",
+      "examined": 89220,
+      "passed": 61294,
+      "novel": 33,
+      "above_094": 0,
+      "max_ratio": 0.9390111056093938,
+      "rate_094_per_min": 0.0,
+      "wall": 35.00021290779114
+    },
+    {
+      "method": "subblock_swap",
+      "examined": 93413,
+      "passed": 79707,
+      "novel": 22,
+      "above_094": 0,
+      "max_ratio": 0.9390111056093938,
+      "rate_094_per_min": 0.0,
+      "wall": 35.00007724761963
+    },
+    {
+      "method": "k2_then_k2",
+      "examined": 24652,
+      "passed": 333,
+      "novel": 221,
+      "above_094": 0,
+      "max_ratio": 0.9351347527764023,
+      "rate_094_per_min": 0.0,
+      "wall": 35.00061297416687
+    },
+    {
+      "method": "k6_2val_filter",
+      "examined": 5,
+      "passed": 0,
+      "novel": 0,
+      "above_094": 0,
+      "max_ratio": 0,
+      "rate_094_per_min": 0.0,
+      "wall": 35.52654528617859
+    },
+    {
+      "method": "short_sa_from_elite",
+      "examined": 3454,
+      "passed": 0,
+      "novel": 0,
+      "above_094": 0,
+      "max_ratio": 0,
+      "rate_094_per_min": 0.0,
+      "wall": 35.00825595855713
+    },
+    {
+      "method": "class_pair_bridge",
+      "examined": 75176,
+      "passed": 75176,
+      "novel": 0,
+      "above_094": 0,
+      "max_ratio": 0,
+      "rate_094_per_min": 0.0,
+      "wall": 35.000255823135376
+    }
+  ],
+  "novel_records": 4
+}

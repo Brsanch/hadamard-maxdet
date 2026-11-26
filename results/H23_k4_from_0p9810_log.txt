@@ -1,0 +1,25 @@
+k=4 sample enum from 0.9810 anchor, 10000000 samples
+  progress:    500000/10000000 (5%)  best=0.9810  rate=35412/s  eta=268s
+  progress:   1000000/10000000 (10%)  best=0.9810  rate=35391/s  eta=254s
+  progress:   1500000/10000000 (15%)  best=0.9810  rate=35483/s  eta=240s
+  progress:   2000000/10000000 (20%)  best=0.9810  rate=35520/s  eta=225s
+  progress:   2500000/10000000 (25%)  best=0.9810  rate=35493/s  eta=211s
+  progress:   3000000/10000000 (30%)  best=0.9810  rate=35511/s  eta=197s
+  progress:   3500000/10000000 (35%)  best=0.9810  rate=35534/s  eta=183s
+  progress:   4000000/10000000 (40%)  best=0.9810  rate=35558/s  eta=169s
+  progress:   4500000/10000000 (45%)  best=0.9810  rate=35562/s  eta=155s
+  progress:   5000000/10000000 (50%)  best=0.9810  rate=35568/s  eta=141s
+  progress:   5500000/10000000 (55%)  best=0.9810  rate=35579/s  eta=126s
+  progress:   6000000/10000000 (60%)  best=0.9810  rate=35591/s  eta=112s
+  progress:   6500000/10000000 (65%)  best=0.9810  rate=35552/s  eta=98s
+  progress:   7000000/10000000 (70%)  best=0.9810  rate=35561/s  eta=84s
+  progress:   7500000/10000000 (75%)  best=0.9810  rate=35549/s  eta=70s
+  progress:   8000000/10000000 (80%)  best=0.9810  rate=35556/s  eta=56s
+  progress:   8500000/10000000 (85%)  best=0.9810  rate=35551/s  eta=42s
+  progress:   9000000/10000000 (90%)  best=0.9810  rate=35560/s  eta=28s
+  progress:   9500000/10000000 (95%)  best=0.9810  rate=35566/s  eta=14s
+
+Done: 10000000 samples in 281s
+Best k=4 from 0.9810: ratio=0.9810
+Beats-anchor improvements: 0
+>>> GLOBAL BEST after k=4: 0.9810

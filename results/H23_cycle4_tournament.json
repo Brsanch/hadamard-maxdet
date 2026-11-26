@@ -1,0 +1,75 @@
+{
+  "results": [
+    {
+      "method": "orrick_4x4_random_block",
+      "examined": 702247,
+      "passed": 200,
+      "novel": 40,
+      "above_094": 4,
+      "max_ratio": 0.9495508240786589,
+      "rate_094_per_min": 6.857137345298994,
+      "wall": 35.000028133392334
+    },
+    {
+      "method": "orrick_perm_plus_k2",
+      "examined": 436311,
+      "passed": 31587,
+      "novel": 156,
+      "above_094": 0,
+      "max_ratio": 0.9390111056093938,
+      "rate_094_per_min": 0.0,
+      "wall": 35.00039196014404
+    },
+    {
+      "method": "long_sa_from_elite_5k",
+      "examined": 19,
+      "passed": 0,
+      "novel": 0,
+      "above_094": 0,
+      "max_ratio": 0,
+      "rate_094_per_min": 0.0,
+      "wall": 35.186915159225464
+    },
+    {
+      "method": "plateau_targeting_sa",
+      "examined": 354,
+      "passed": 0,
+      "novel": 0,
+      "above_094": 0,
+      "max_ratio": 0,
+      "rate_094_per_min": 0.0,
+      "wall": 35.03834104537964
+    },
+    {
+      "method": "score_max_sa_from_elite_2k",
+      "examined": 346,
+      "passed": 0,
+      "novel": 0,
+      "above_094": 0,
+      "max_ratio": 0,
+      "rate_094_per_min": 0.0,
+      "wall": 35.0151948928833
+    },
+    {
+      "method": "block_hadamard_embed",
+      "examined": 551339,
+      "passed": 0,
+      "novel": 0,
+      "above_094": 0,
+      "max_ratio": 0,
+      "rate_094_per_min": 0.0,
+      "wall": 35.00001311302185
+    },
+    {
+      "method": "QR23_circulant_construction",
+      "examined": 357732,
+      "passed": 0,
+      "novel": 0,
+      "above_094": 0,
+      "max_ratio": 0,
+      "rate_094_per_min": 0.0,
+      "wall": 35.000019788742065
+    }
+  ],
+  "novel_records": 4
+}

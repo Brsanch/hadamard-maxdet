@@ -1,0 +1,19 @@
+Known |det| values across full corpus: 44
+Round 4 anchors (deduped by |det|): 3
+  ratio=0.9810  H23_round3_record_00_r0.9810.json
+  ratio=0.9423  H23_round3_record_01_r0.9423.json
+  ratio=0.9394  H23_round3_record_03_r0.9394.json
+
+=== anchor det=2,726,756,352,000,000 ratio=0.9810 (4s) ===
+  band [0.0005,0.0020)  ratio=0.9423  pl=0.00110  |G|={1: 205, 3: 47, 7: 1}
+  band [0.0050,0.0110)  ratio=0.9539  pl=0.00744  |G|={1: 205, 3: 47, 5: 1}
+
+=== anchor det=2,619,093,811,200,000 ratio=0.9423 (4s) ===
+  band [0.0200,0.0400)  ratio=0.9562  pl=0.03285  |G|={1: 207, 3: 45, 5: 1}
+
+=== anchor det=2,611,150,848,000,000 ratio=0.9394 (4s) ===
+  band [0.0050,0.0110)  ratio=0.9402  pl=0.00943  |G|={1: 204, 3: 48, 5: 1}
+
+>>> ROUND 4 GLOBAL BEST: 0.9810 via previous_round
+Saved 4 new ≥0.94 records.
+Done.

@@ -1,0 +1,45 @@
+  i=        0 new max: ratio=0.8264 pl=0.02691 flips=[(17, 22), (10, 22), (4, 3)]
+  i=        3 new max: ratio=0.8311 pl=0.03443 flips=[(11, 14), (20, 0), (14, 14)]
+  i=       99 new max: ratio=0.8337 pl=0.03818 flips=[(17, 2), (9, 8), (13, 13)]
+  i=      163 new max: ratio=0.8558 pl=0.03160 flips=[(5, 0), (5, 5), (2, 11)]
+  i=     2355 new max: ratio=0.8740 pl=0.02461 flips=[(13, 4), (0, 4), (0, 3)]
+  i=     8536 new max: ratio=0.8812 pl=0.02251 flips=[(11, 2), (0, 9), (3, 0)]
+  i=    10057 new max: ratio=0.8926 pl=0.03361 flips=[(15, 21), (1, 7), (0, 3)]
+  i=    21426 new max: ratio=0.8966 pl=0.02442 flips=[(1, 17), (12, 2), (8, 1)]
+  i=    27028 new max: ratio=0.8973 pl=0.03946 flips=[(11, 2), (7, 1), (6, 5)]
+  i=    38632 new max: ratio=0.9043 pl=0.03975 flips=[(9, 7), (7, 1), (12, 2)]
+  i=    53290 new max: ratio=0.9118 pl=0.03842 flips=[(11, 13), (0, 4), (2, 11)]
+  i=   100350 new max: ratio=0.9175 pl=0.03562 flips=[(9, 5), (2, 11), (2, 12)]
+  i=   121023 new max: ratio=0.9175 pl=0.02217 flips=[(21, 2), (0, 4), (2, 12)]
+  progress:    150000/3000000 (5%)  in_band=76775  best=0.9175  rate=4270/s  eta=668s
+  i=   284412 new max: ratio=0.9246 pl=0.03515 flips=[(14, 12), (4, 0), (7, 1)]
+  progress:    300000/3000000 (10%)  in_band=153803  best=0.9246  rate=4275/s  eta=632s
+  progress:    450000/3000000 (15%)  in_band=230359  best=0.9246  rate=4277/s  eta=596s
+  i=   451812 new max: ratio=0.9572 pl=0.03695 flips=[(1, 7), (0, 3), (2, 12)]
+  progress:    600000/3000000 (20%)  in_band=306724  best=0.9572  rate=4282/s  eta=560s
+  progress:   1050000/3000000 (35%)  in_band=536529  best=0.9572  rate=4295/s  eta=454s
+  progress:   1200000/3000000 (40%)  in_band=613427  best=0.9572  rate=4297/s  eta=419s
+  progress:   1350000/3000000 (45%)  in_band=690022  best=0.9572  rate=4299/s  eta=384s
+  progress:   1500000/3000000 (50%)  in_band=766695  best=0.9572  rate=4300/s  eta=349s
+  progress:   1650000/3000000 (55%)  in_band=843289  best=0.9572  rate=4303/s  eta=314s
+  progress:   1800000/3000000 (60%)  in_band=920026  best=0.9572  rate=4304/s  eta=279s
+  progress:   2100000/3000000 (70%)  in_band=1073115  best=0.9572  rate=4306/s  eta=209s
+  progress:   2250000/3000000 (75%)  in_band=1149642  best=0.9572  rate=4308/s  eta=174s
+  progress:   2400000/3000000 (80%)  in_band=1226475  best=0.9572  rate=4310/s  eta=139s
+  progress:   2700000/3000000 (90%)  in_band=1379997  best=0.9572  rate=4312/s  eta=70s
+  progress:   2850000/3000000 (95%)  in_band=1456291  best=0.9572  rate=4314/s  eta=35s
+
+Done: 3000000 samples in 695s
+Hits in band: 1533166 (51.11%)
+Best ratio in band: 0.9572
+Saved best to results/H23_band_020_040_k3_best.json
+
+Ratio distribution in band (k=3):
+  p 50.0: 0.7512
+  p 75.0: 0.7749
+  p 90.0: 0.7972
+  p 95.0: 0.8111
+  p 99.0: 0.8381
+  p 99.9: 0.8682
+  p100.0: 0.8973
+  max:    0.9572

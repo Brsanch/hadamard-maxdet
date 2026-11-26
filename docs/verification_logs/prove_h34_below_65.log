@@ -1,0 +1,47 @@
+# Hadamard MaxDet Verification Log: scripts/prove_h34_below_65.py
+# Date: 2026-11-26T05:58:44Z
+# Git HEAD: 6cca3ee8aa98cb3ad340a3ea03c5ec4fd8ed8f2b
+# Python: Python 3.13.9
+# Exact-integer polar-factor Weyl/Davis-Kahan (Steps 1 & 4) + Higham IEEE 754 backward error (Step 2)
+
+Step 1 (coarse exclusions) PASS: {'max_s1_le_11': 64.8999, 'max_m6_ge_3': 64.5536, 'max_m6_2_p3': 64.6798, 'max_m6_2_2k2': 64.6544, 'max_m6_1_1': 64.6294, 'max_m6_1_edge_s': 64.8548}
+    [s=12, m6=0: certified max_weyl=4.524e-12]
+s=12 (thresh=55.592,   0.1s): m6=0 ->  2, m6=1 ->  0
+    [s=13, m6=0: certified max_weyl=5.415e-12]
+s=13 (thresh=57.095,   0.9s): m6=0 ->  6, m6=1 ->  0
+    [s=14, m6=0: certified max_weyl=6.418e-12]
+    [s=14, m6=1: certified max_weyl=6.308e-12]
+s=14 (thresh=58.681,   6.4s): m6=0 -> 15, m6=1 ->  0
+    [exact iso rescued 1 non-switching-equivalent hash collisions at s=15, m6=0; max_weyl=7.409e-12]
+    [exact iso rescued 2 non-switching-equivalent hash collisions at s=15, m6=1; max_weyl=7.345e-12]
+s=15 (thresh=60.357,  23.6s): m6=0 -> 24, m6=1 ->  1
+    [exact iso rescued 1 non-switching-equivalent hash collisions at s=16, m6=0; max_weyl=8.701e-12]
+    [exact iso rescued 1 non-switching-equivalent hash collisions at s=16, m6=1; max_weyl=8.603e-12]
+s=16 (thresh=62.132,  71.0s): m6=0 -> 30, m6=1 ->  2
+    [exact iso rescued 6 non-switching-equivalent hash collisions at s=17, m6=0; max_weyl=9.884e-12]
+    [exact iso rescued 1 non-switching-equivalent hash collisions at s=17, m6=1; max_weyl=9.686e-12]
+s=17 (thresh=64.015, 151.1s): m6=0 -> 27, m6=1 ->  2
+    [exact iso rescued 1 non-switching-equivalent hash collisions at s=18, m6=0; max_weyl=1.114e-11]
+    [exact iso rescued 4 non-switching-equivalent hash collisions at s=18, m6=1; max_weyl=1.107e-11]
+s=18 (thresh=66.016, 243.8s): m6=0 -> 19, m6=1 ->  1
+    [s=19, m6=0: certified max_weyl=1.248e-11]
+    [exact iso rescued 1 non-switching-equivalent hash collisions at s=19, m6=1; max_weyl=1.251e-11]
+s=19 (thresh=68.145, 330.6s): m6=0 -> 10, m6=1 ->  1
+    [s=20, m6=0: certified max_weyl=1.404e-11]
+    [exact iso rescued 1 non-switching-equivalent hash collisions at s=20, m6=1; max_weyl=1.399e-11]
+s=20 (thresh=70.417, 415.0s): m6=0 ->  6, m6=1 ->  1
+    [s=21, m6=0: certified max_weyl=1.565e-11]
+s=21 (thresh=72.845, 496.3s): m6=0 ->  3, m6=1 ->  0
+    [s=22, m6=0: certified max_weyl=1.737e-11]
+s=22 (thresh=75.446, 540.1s): m6=0 ->  1, m6=1 ->  0
+
+Step 3 (C = 0) PASS — ALL 5 square-det pairs >= 65.0 * 32^16 eliminated:
+  |det|=66.0000*32^16  (17[m6=0,66.000], 17[m6=0,66.000])  -> Hasse-Minkowski fails {3: -1, 11: -1}
+  |det|=65.5312*32^16  (17[m6=0,65.531], 17[m6=0,65.531])  -> 0 solutions to x^T G^{-1} x = 1
+  |det|=65.2500*32^16  (13[m6=0,58.000], 21[m6=0,73.406])  -> forced y[0]*y[1]=+1 in block 2 => G=34 != -2
+  |det|=65.1250*32^16  (17[m6=0,65.125], 17[m6=0,65.125])  -> all 64 col types satisfy y1[1]y1[2]+y2[1]y2[2]=0 => sum G=0 != 4
+  |det|=65.0610*32^16  (17[m6=0,65.061], 17[m6=0,65.061])  -> Hasse-Minkowski fails {7: -1, 47: -1}
+Step 4 (C != 0) PASS: max_|C|>=8=64.0907, max_k>=3=64.7464, k=1 orbits=697 (0 squares >= 65), k=2 squares >= 65 eliminated=1
+    k=2 square |det|=65.03125*32^16 (17,17): col eq (4 types): all force x_u1*x_v1=-1 => G=-34 != +4
+
+ALL STEPS VERIFIED in 541.2s: D(34) < 65 * 32^16.

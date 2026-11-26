@@ -1,0 +1,32 @@
+{
+  "corpus_size": 56,
+  "feature_correlations": {
+    "hadamard_defect": -0.8024480073667065,
+    "sv_min": 0.7904293514966694,
+    "count_5plus": -0.7657777146558108,
+    "count_1": 0.7630102304589016,
+    "sv_cond": -0.7263597662666311,
+    "sv_top4_var": -0.706239748375616,
+    "v_min_max": 0.4795040340607184,
+    "rw_max_abs": -0.4554857566600619,
+    "v_min_l4": 0.43014765333401167,
+    "sign_balance": 0.4291609323366184,
+    "plateau": -0.42598311528762745,
+    "sv_gap_max": 0.41182472053656827,
+    "sv_gap_mid": -0.3854771932707099,
+    "v_min_entropy": -0.3624844099543257,
+    "cw_max_abs": -0.3576969381175149,
+    "rw_mean_abs": -0.17290791846313516,
+    "sv_gap_min": -0.08196115769577317
+  },
+  "best_composite_features": [
+    "hadamard_defect",
+    "count_1",
+    "plateau",
+    "sv_min"
+  ],
+  "best_composite_corr": 0.9632639528166301,
+  "filter_threshold": 0.6673378456332113,
+  "filter_precision": 0.75,
+  "filter_recall": 1.0
+}

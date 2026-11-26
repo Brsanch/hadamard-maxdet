@@ -1,0 +1,5 @@
+Corpus: 55  Budget: 480s
+Current best non-Orrick in corpus: 0.9810
+  t=30s  examined=524,987  passed=25,113  novel=840  ≥0.94=4  ≥0.96=0  ≥0.98=0  max=0.9496
+  t=60s  examined=1,206,299  passed=30,664  novel=1,284  ≥0.94=4  ≥0.96=0  ≥0.98=0  max=0.9496
+  t=92s  examined=1,917,911  passed=34,048  novel=1,494  ≥0.94=4  ≥0.96=0  ≥0.98=0  max=0.9496

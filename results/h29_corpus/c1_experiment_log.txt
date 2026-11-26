@@ -1,0 +1,47 @@
+Orrick c1 = 393
+Max theoretical c1 = 406 = 406
+Orrick has 13 entries with |G|>=3 to potentially convert
+
+=== k=2 flips: c1 distribution ===
+Tested 294092 candidates in 219s
+c1 distribution among candidates ratio>=0.85:
+  c1=356: count=216 max_det_ratio=0.8714
+  c1=357: count=15 max_det_ratio=0.8875
+  c1=358: count=5256 max_det_ratio=0.8732
+  c1=359: count=216 max_det_ratio=0.8670
+  c1=360: count=5472 max_det_ratio=0.8821
+  c1=361: count=3402 max_det_ratio=0.8938
+  c1=362: count=4020 max_det_ratio=0.8737
+  c1=363: count=19392 max_det_ratio=0.8938
+  c1=364: count=5460 max_det_ratio=0.9031
+  c1=365: count=38034 max_det_ratio=0.9029
+  c1=366: count=10746 max_det_ratio=0.9000
+  c1=367: count=36535 max_det_ratio=0.9326
+  c1=368: count=12743 max_det_ratio=0.9029
+  c1=369: count=15876 max_det_ratio=0.9136
+  c1=370: count=22735 max_det_ratio=0.9078
+  c1=371: count=12873 max_det_ratio=0.8991
+  c1=372: count=33381 max_det_ratio=0.9379
+  c1=373: count=15162 max_det_ratio=0.9326
+  c1=374: count=19602 max_det_ratio=0.9316
+  c1=375: count=6048 max_det_ratio=0.9311
+  c1=376: count=10959 max_det_ratio=0.9538
+  c1=377: count=2598 max_det_ratio=0.9308
+  c1=378: count=3504 max_det_ratio=0.9379
+  c1=379: count=3177 max_det_ratio=0.9000
+  c1=380: count=4213 max_det_ratio=0.8705
+  c1=381: count=624 max_det_ratio=0.9000
+  c1=382: count=774 max_det_ratio=0.8960
+  c1=383: count=648 max_det_ratio=0.9228
+  c1=384: count=312 max_det_ratio=0.8938
+  c1=385: count=87 max_det_ratio=0.9308
+  c1=386: count=6 max_det_ratio=0.9246
+  c1=387: count=6 max_det_ratio=0.8875
+
+Matrices with c1 > 393 (Orrick): 0
+
+Matrices with det > baseline: 0
+Pure 2-val (all |G|=1): 0
+
+Saved top-30 by c1 to H29_c1_experiment.json
+Done.

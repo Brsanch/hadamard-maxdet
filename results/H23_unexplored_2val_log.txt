@@ -1,0 +1,40 @@
+Searching k=2 from 21 anchors (ratio ≥ 0.85)
+  parent ratio=1.0000 (H23_orrick2003_record.json): 96 k=2 hits in target a∈{203, 204, 207, 209, 210, 211, 212, 214, 215}
+  parent ratio=0.9810 (H23_round3_record_00_r0.9810.json): 12 k=2 hits in target a∈{203, 204, 207, 209, 210, 211, 212, 214, 215}
+  parent ratio=0.9750 (H23_smart_2val_best_new_class.json): 88 k=2 hits in target a∈{203, 204, 207, 209, 210, 211, 212, 214, 215}
+  parent ratio=0.9605 (H23_anchor_band_011_020_k2.json): 45 k=2 hits in target a∈{203, 204, 207, 209, 210, 211, 212, 214, 215}
+  parent ratio=0.9576 (H23_anchor_band_020_040.json): 18 k=2 hits in target a∈{203, 204, 207, 209, 210, 211, 212, 214, 215}
+  parent ratio=0.9572 (H23_band_020_040_k3_best.json): 9 k=2 hits in target a∈{203, 204, 207, 209, 210, 211, 212, 214, 215}
+  parent ratio=0.9562 (H23_round4_record_02_r0.9562.json): 20 k=2 hits in target a∈{203, 204, 207, 209, 210, 211, 212, 214, 215}
+  parent ratio=0.9539 (H23_round4_record_01_r0.9539.json): 14 k=2 hits in target a∈{203, 204, 207, 209, 210, 211, 212, 214, 215}
+  parent ratio=0.9493 (H23_anchor_band_04_08_smart2val.json): 10 k=2 hits in target a∈{203, 204, 207, 209, 210, 211, 212, 214, 215}
+  parent ratio=0.9461 (H23_anchor_band_0005_002_smart2val.json): 16 k=2 hits in target a∈{203, 204, 207, 209, 210, 211, 212, 214, 215}
+  parent ratio=0.9450 (H23_attack_best.json): 3652 k=2 hits in target a∈{203, 204, 207, 209, 210, 211, 212, 214, 215}
+  parent ratio=0.9423 (H23_round3_record_01_r0.9423.json): 2 k=2 hits in target a∈{203, 204, 207, 209, 210, 211, 212, 214, 215}
+  parent ratio=0.9140 (H23_anchor_band_08_14_btc.json): 804 k=2 hits in target a∈{203, 204, 207, 209, 210, 211, 212, 214, 215}
+
+Search complete in 49s. Total hits in target classes: 4786
+
+=== 2-val matrices found in unexplored count-classes ===
+  (count_a=203, count_3=50): 1334 matrices, 482 distinct |det|, max=0.9539
+  (count_a=204, count_3=49): 615 matrices, 218 distinct |det|, max=0.9481
+  (count_a=207, count_3=46): 1615 matrices, 138 distinct |det|, max=0.8799
+  (count_a=209, count_3=44): 287 matrices, 25 distinct |det|, max=0.8832
+  (count_a=210, count_3=43): 722 matrices, 62 distinct |det|, max=0.8963
+  (count_a=211, count_3=42): 200 matrices, 16 distinct |det|, max=0.8999
+  (count_a=212, count_3=41): 13 matrices, 1 distinct |det|, max=0.8878
+
+=== Top 10 matrices in unexplored 2-val count-classes ===
+  ratio=0.9539  (a=203, b=50)  parent=H23_round3_record_00_r0.9810.json  flips=(3, 0, 7, 1)
+  ratio=0.9539  (a=203, b=50)  parent=H23_round3_record_00_r0.9810.json  flips=(3, 0, 8, 1)
+  ratio=0.9539  (a=203, b=50)  parent=H23_round3_record_00_r0.9810.json  flips=(3, 0, 11, 2)
+  ratio=0.9539  (a=203, b=50)  parent=H23_round3_record_00_r0.9810.json  flips=(3, 0, 12, 2)
+  ratio=0.9539  (a=203, b=50)  parent=H23_round3_record_00_r0.9810.json  flips=(4, 0, 7, 1)
+  ratio=0.9539  (a=203, b=50)  parent=H23_round3_record_00_r0.9810.json  flips=(4, 0, 8, 1)
+  ratio=0.9539  (a=203, b=50)  parent=H23_round3_record_00_r0.9810.json  flips=(4, 0, 11, 2)
+  ratio=0.9539  (a=203, b=50)  parent=H23_round3_record_00_r0.9810.json  flips=(4, 0, 12, 2)
+  ratio=0.9539  (a=203, b=50)  parent=H23_round3_record_00_r0.9810.json  flips=(7, 1, 11, 2)
+  ratio=0.9539  (a=203, b=50)  parent=H23_round3_record_00_r0.9810.json  flips=(7, 1, 12, 2)
+
+Saved best to results/H23_unexplored_2val_a203_r0.9539.json  triple=True
+Done.

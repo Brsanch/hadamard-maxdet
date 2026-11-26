@@ -1,0 +1,34 @@
+Orrick |G|: (208, 45, 0)
+Orrick |det|: 2,779,447,296,000,000
+
+=== Phase 2: k=4 sample (5M) of Orrick, filter to (208, 45) ===
+  progress: 500000/5000000  in_class=0  distinct=1  wall=10s
+  progress: 1000000/5000000  in_class=0  distinct=1  wall=20s
+  progress: 1500000/5000000  in_class=0  distinct=1  wall=30s
+  progress: 2000000/5000000  in_class=0  distinct=1  wall=40s
+  progress: 2500000/5000000  in_class=0  distinct=1  wall=50s
+  progress: 3000000/5000000  in_class=0  distinct=1  wall=60s
+  progress: 3500000/5000000  in_class=0  distinct=1  wall=70s
+  progress: 4000000/5000000  in_class=0  distinct=1  wall=80s
+  progress: 4500000/5000000  in_class=0  distinct=1  wall=89s
+  Total k=4 in (208,45): 0/5000000 (0.0000%)
+  Distinct |det| in (208,45) so far: 1
+
+=== Phase 3: k=6 sample (3M) of Orrick, filter to (208, 45) ===
+  progress: 300000/3000000  in_class=0  distinct=1  wall=6s
+  progress: 600000/3000000  in_class=0  distinct=1  wall=13s
+  progress: 900000/3000000  in_class=0  distinct=1  wall=19s
+  progress: 1200000/3000000  in_class=0  distinct=1  wall=25s
+  progress: 1500000/3000000  in_class=0  distinct=1  wall=32s
+  progress: 1800000/3000000  in_class=0  distinct=1  wall=38s
+  progress: 2100000/3000000  in_class=0  distinct=1  wall=44s
+  progress: 2400000/3000000  in_class=0  distinct=1  wall=51s
+  progress: 2700000/3000000  in_class=0  distinct=1  wall=57s
+  Total k=6 in (208,45): 0/3000000 (0.0000%)
+
+=== Phase 4: constrained SA from Orrick within (208, 45), 100k iters, k random in [2,4,6,8] ===
+
+=== Summary: distinct |det| in count-class (208, 45) ===
+Total distinct |det| found in (208, 45): 1
+  ratio=1.0000  det=2,779,447,296,000,000  src=orrick << ORRICK
+Done.

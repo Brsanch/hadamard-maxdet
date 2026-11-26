@@ -1,0 +1,46 @@
+Re-enumerating k=2 of Orrick H29...
+Found 178 distinct matrices ratio≥0.85 in 208s
+
+Computing feature panel for 178 matrices...
+Feature computation: 0s for 178 matrices
+
+=== Per-feature correlation with RATIO, within elite cluster ===
+feature                         all     ≥0.94     ≥0.93
+
+Within elite (≥0.94, n=3) — features sorted by |corr|:
+  sv_min                     +0.455  +0.000  +0.179
+  sv_max                     -0.498  +0.000  +0.376
+  sv_cond                    -0.553  +0.000  -0.033
+  hadamard_defect            -0.460  +0.000  -0.177
+  plateau_3_25               -0.083  +0.000  -0.664
+  gap_max                    -0.258  +0.000  +0.618
+  gap_max_idx                -0.141  +0.000  +0.000
+  gap_at_top                 -0.233  +0.000  +0.618
+  gap_at_bottom              -0.072  +0.000  +0.574
+  v_min_max                  +0.060  +0.000  -0.439
+  v_min_l4                   -0.092  +0.000  +0.573
+  v_min_entropy              +0.243  +0.000  -0.805
+  v_max_max                  -0.116  +0.000  -0.667
+  v_max_l4                   -0.237  +0.000  -0.548
+  u_min_max                  +0.137  +0.000  -0.919
+  c1                         +0.457  +0.000  +0.736
+  c3                         -0.277  +0.000  -0.671
+  c5                         -0.231  +0.000  +0.444
+  c7                         -0.312  +0.000  -0.249
+  c9plus                     -0.096  +0.000  +0.000
+  pos_neg_balance            -0.091  +0.000  +0.569
+  row_sum_max_abs            -0.158  +0.000  -0.222
+  row_sum_var                -0.152  +0.000  +0.354
+  col_sum_max_abs            -0.200  +0.000  +0.000
+  hadamard_residual          -0.858  +0.000  -0.942
+  sv_mean                    +0.988  +0.000  +0.999
+  sv_var                     -0.988  +0.000  -0.999
+  sv_skew                    +0.437  +0.000  +0.916
+  sv_kurt                    +0.094  +0.000  +0.829
+  spec_entropy               +0.955  +0.000  +0.993
+  gram_sq_trace              -0.853  +0.000  -0.938
+  n_distinct_inner_products  -0.291  +0.000  -0.249
+
+=== Where does Orrick stand out vs other elite (≥0.94)? ===
+feature                        Orrick   others mean    others std  z-score
+Done.

@@ -1,0 +1,91 @@
+{
+  "budget_per_method_sec": 45,
+  "corpus_size": 55,
+  "results": [
+    {
+      "method": "recursive_k2_full_corpus",
+      "wall_sec": 45.00001287460327,
+      "examined": 830277,
+      "passed_filter": 27822,
+      "novel_dets": 1153,
+      "above_094": 4,
+      "above_098": 0,
+      "max_ratio": 0.9495508240786589,
+      "rate_novel_per_min": 1537.3328934988645,
+      "rate_094_per_min": 5.333331807454863
+    },
+    {
+      "method": "col_neg_plus_k2",
+      "wall_sec": 45.0000479221344,
+      "examined": 739353,
+      "passed_filter": 13082,
+      "novel_dets": 1319,
+      "above_094": 4,
+      "above_098": 0,
+      "max_ratio": 0.9495508240786589,
+      "rate_novel_per_min": 1758.6647938006531,
+      "rate_094_per_min": 5.333327653679008
+    },
+    {
+      "method": "hamming_midpoint_pairs",
+      "wall_sec": 45.00015997886658,
+      "examined": 123197,
+      "passed_filter": 84223,
+      "novel_dets": 33,
+      "above_094": 0,
+      "above_098": 0,
+      "max_ratio": 0.9390111056093938,
+      "rate_novel_per_min": 43.99984357677545,
+      "rate_094_per_min": 0.0
+    },
+    {
+      "method": "k2_from_sub094_basins",
+      "wall_sec": 45.00002098083496,
+      "examined": 765590,
+      "passed_filter": 354,
+      "novel_dets": 125,
+      "above_094": 0,
+      "above_098": 0,
+      "max_ratio": 0.9284147980476763,
+      "rate_novel_per_min": 166.66658895990673,
+      "rate_094_per_min": 0.0
+    },
+    {
+      "method": "k4_from_top5",
+      "wall_sec": 45.00001001358032,
+      "examined": 802429,
+      "passed_filter": 8,
+      "novel_dets": 8,
+      "above_094": 0,
+      "above_098": 0,
+      "max_ratio": 0.8768479875503996,
+      "rate_novel_per_min": 10.666664293077785,
+      "rate_094_per_min": 0.0
+    },
+    {
+      "method": "row_swap_from_elite",
+      "wall_sec": 45.00004577636719,
+      "examined": 123370,
+      "passed_filter": 115741,
+      "novel_dets": 0,
+      "above_094": 0,
+      "above_098": 0,
+      "max_ratio": 0.0,
+      "rate_novel_per_min": 0.0,
+      "rate_094_per_min": 0.0
+    },
+    {
+      "method": "2x2_corner_from_elite",
+      "wall_sec": 45.00002598762512,
+      "examined": 797719,
+      "passed_filter": 0,
+      "novel_dets": 0,
+      "above_094": 0,
+      "above_098": 0,
+      "max_ratio": 0.0,
+      "rate_novel_per_min": 0.0,
+      "rate_094_per_min": 0.0
+    }
+  ],
+  "winner": "recursive_k2_full_corpus"
+}

@@ -1,0 +1,8 @@
+{
+  "global_best_ratio": 0.981,
+  "global_best_via": "previous_round",
+  "samples_per_anchor": 600000,
+  "total_samples": 6600000,
+  "wall_seconds": 183.81966370798182,
+  "new_records_summary": []
+}

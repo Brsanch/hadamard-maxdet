@@ -1,0 +1,10 @@
+{
+  "corpus_size": 56,
+  "chosen_filter": "hadamard_defect <= 11.5 AND count_5plus <= 1",
+  "filter_precision": 0.5625,
+  "filter_recall": 1.0,
+  "global_best_ratio": 1.0,
+  "global_best_via": "corpus_max",
+  "new_records_count": 0,
+  "new_records_summary": []
+}

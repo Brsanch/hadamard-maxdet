@@ -1,0 +1,21 @@
+Anchors: 8 random-init SA basins
+
+=== seed100.json  base ratio=0.7652  (4s) ===
+
+=== seed200.json  base ratio=0.7503  (4s) ===
+
+=== seed300.json  base ratio=0.8034  (4s) ===
+
+=== seed400.json  base ratio=0.7651  (4s) ===
+
+=== seed500.json  base ratio=0.7735  (4s) ===
+
+=== seed600.json  base ratio=0.7757  (4s) ===
+
+=== seed700.json  base ratio=0.7071  (4s) ===
+
+=== seed800.json  base ratio=0.7827  (4s) ===
+
+>>> RANDOM-BASIN k=2 ROUND BEST: 0.9810 via previous
+Saved 0 new ≥0.94 records.
+Done.

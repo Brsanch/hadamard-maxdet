@@ -1,0 +1,21 @@
+H12 shape: 12x12
+H2 shape: 2x2
+H24 = H12 ⊗ H2 is Hadamard: True
+|det H24| = 36,520,347,436,056,576 (expected 36,520,347,436,056,576)
+Hamming distance H_kron vs Paley H24: 252
+
+Enumerating 576 deletions...
+  576 deletions in 0s
+  ratio=0.5475  pl=0.00000  ij=(0, 0)  |G|={1: 253}
+Total distinct |det| values: 1
+
+Paley H24 deletion gave: 1,521,899,335,680,000  ratio=0.5475
+Kron H24 best deletion:  1,521,681,143,169,024  ratio=0.5475
+
+=== k=2 recurse from top 1 Kron-H24 deletion seeds ===
+
+--- Kron seed 0 ratio=0.5475 (3s) ---
+
+>>> KRON ROUND BEST: 0.9810 via previous_round
+Saved 0 new ≥0.94 records.
+Done.

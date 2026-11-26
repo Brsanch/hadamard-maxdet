@@ -1,0 +1,59 @@
+Building normalization stats from corpus...
+Stats: {'hd': {'mean': 12.348283199508433, 'std': 2.3581586054292716, 'corr': -0.8037912259673727, 'sign': -1}, 'c1': {'mean': 194.12727272727273, 'std': 23.893745507562546, 'corr': 0.7630951011503214, 'sign': 1}, 'pl': {'mean': 0.10781826280819704, 'std': 0.07185056965816389, 'corr': -0.41843548450059376, 'sign': -1}, 'sm': {'mean': 3.2213237358454125, 'std': 0.5242043393282062, 'corr': 0.7915945044881901, 'sign': 1}}
+
+Orrick composite_score: 1.1722
+Top corpus matrix score: 1.1722
+
+=== 4 chains × 80k SA-on-score iters from random init ===
+
+--- chain seed=1001 ---
+  seed=1001 step=8000/80000 cur_score=-8.004 best_score=-5.901 elite_hits=0 bareiss_calls=0 wall=0s
+  seed=1001 step=16000/80000 cur_score=-6.558 best_score=-5.555 elite_hits=0 bareiss_calls=0 wall=1s
+  seed=1001 step=24000/80000 cur_score=-6.155 best_score=-5.053 elite_hits=0 bareiss_calls=0 wall=1s
+  seed=1001 step=32000/80000 cur_score=-5.710 best_score=-4.150 elite_hits=0 bareiss_calls=0 wall=1s
+  seed=1001 step=40000/80000 cur_score=-4.067 best_score=-3.634 elite_hits=0 bareiss_calls=0 wall=2s
+  seed=1001 step=48000/80000 cur_score=-2.229 best_score=-1.989 elite_hits=0 bareiss_calls=0 wall=2s
+  seed=1001 step=56000/80000 cur_score=-1.354 best_score=-1.354 elite_hits=0 bareiss_calls=0 wall=2s
+  seed=1001 step=64000/80000 cur_score=-1.354 best_score=-1.354 elite_hits=0 bareiss_calls=0 wall=3s
+  seed=1001 step=72000/80000 cur_score=-1.354 best_score=-1.354 elite_hits=0 bareiss_calls=0 wall=3s
+  DONE: final_score=-1.354  final_det_ratio=0.2106  elite_hits_along_way=0
+
+--- chain seed=1002 ---
+  seed=1002 step=8000/80000 cur_score=-7.182 best_score=-5.515 elite_hits=0 bareiss_calls=0 wall=0s
+  seed=1002 step=16000/80000 cur_score=-7.519 best_score=-5.506 elite_hits=0 bareiss_calls=0 wall=1s
+  seed=1002 step=24000/80000 cur_score=-6.676 best_score=-4.641 elite_hits=0 bareiss_calls=0 wall=1s
+  seed=1002 step=32000/80000 cur_score=-4.614 best_score=-4.381 elite_hits=0 bareiss_calls=0 wall=1s
+  seed=1002 step=40000/80000 cur_score=-4.436 best_score=-3.305 elite_hits=0 bareiss_calls=0 wall=2s
+  seed=1002 step=48000/80000 cur_score=-2.218 best_score=-2.218 elite_hits=0 bareiss_calls=0 wall=2s
+  seed=1002 step=56000/80000 cur_score=-1.370 best_score=-1.370 elite_hits=0 bareiss_calls=0 wall=2s
+  seed=1002 step=64000/80000 cur_score=-1.202 best_score=-1.202 elite_hits=0 bareiss_calls=0 wall=3s
+  seed=1002 step=72000/80000 cur_score=-1.202 best_score=-1.202 elite_hits=0 bareiss_calls=0 wall=3s
+  DONE: final_score=-1.202  final_det_ratio=0.2577  elite_hits_along_way=0
+
+--- chain seed=1003 ---
+  seed=1003 step=8000/80000 cur_score=-6.637 best_score=-5.816 elite_hits=0 bareiss_calls=0 wall=0s
+  seed=1003 step=16000/80000 cur_score=-7.304 best_score=-5.561 elite_hits=0 bareiss_calls=0 wall=1s
+  seed=1003 step=24000/80000 cur_score=-6.357 best_score=-4.976 elite_hits=0 bareiss_calls=0 wall=1s
+  seed=1003 step=32000/80000 cur_score=-5.280 best_score=-4.366 elite_hits=0 bareiss_calls=0 wall=1s
+  seed=1003 step=40000/80000 cur_score=-4.081 best_score=-3.609 elite_hits=0 bareiss_calls=0 wall=2s
+  seed=1003 step=48000/80000 cur_score=-2.760 best_score=-2.558 elite_hits=0 bareiss_calls=0 wall=2s
+  seed=1003 step=56000/80000 cur_score=-1.665 best_score=-1.665 elite_hits=0 bareiss_calls=0 wall=2s
+  seed=1003 step=64000/80000 cur_score=-1.665 best_score=-1.665 elite_hits=0 bareiss_calls=0 wall=3s
+  seed=1003 step=72000/80000 cur_score=-1.665 best_score=-1.665 elite_hits=0 bareiss_calls=0 wall=3s
+  DONE: final_score=-1.665  final_det_ratio=0.0972  elite_hits_along_way=0
+
+--- chain seed=1004 ---
+  seed=1004 step=8000/80000 cur_score=-7.706 best_score=-5.522 elite_hits=0 bareiss_calls=0 wall=0s
+  seed=1004 step=16000/80000 cur_score=-5.930 best_score=-5.296 elite_hits=0 bareiss_calls=0 wall=1s
+  seed=1004 step=24000/80000 cur_score=-5.405 best_score=-4.985 elite_hits=0 bareiss_calls=0 wall=1s
+  seed=1004 step=32000/80000 cur_score=-5.383 best_score=-4.547 elite_hits=0 bareiss_calls=0 wall=1s
+  seed=1004 step=40000/80000 cur_score=-3.304 best_score=-3.277 elite_hits=0 bareiss_calls=0 wall=2s
+  seed=1004 step=48000/80000 cur_score=-2.387 best_score=-2.305 elite_hits=0 bareiss_calls=0 wall=2s
+  seed=1004 step=56000/80000 cur_score=-1.933 best_score=-1.891 elite_hits=0 bareiss_calls=0 wall=2s
+  seed=1004 step=64000/80000 cur_score=-1.832 best_score=-1.832 elite_hits=0 bareiss_calls=0 wall=3s
+  seed=1004 step=72000/80000 cur_score=-1.832 best_score=-1.832 elite_hits=0 bareiss_calls=0 wall=3s
+  DONE: final_score=-1.832  final_det_ratio=0.0927  elite_hits_along_way=0
+
+=== Top elite hits across all chains ===
+Total elite hits (≥0.94): 0; novel (not in corpus): 0
+Done.

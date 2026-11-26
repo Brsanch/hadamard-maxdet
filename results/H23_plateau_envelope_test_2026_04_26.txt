@@ -1,0 +1,53 @@
+=== Step 1: aggregate existing ===
+  49 points after aggregation
+
+=== Step 2: 24 sequential SA chains × 20k iters ===
+  chain  0: best ratio=0.6320  plateau=0.18145  (7.3s)
+  chain  1: best ratio=0.6554  plateau=0.20442  (14.6s)
+  chain  2: best ratio=0.6927  plateau=0.16154  (22.0s)
+  chain  3: best ratio=0.6880  plateau=0.15416  (29.3s)
+  chain  4: best ratio=0.6135  plateau=0.15332  (36.6s)
+  chain  5: best ratio=0.6232  plateau=0.18198  (44.0s)
+  chain  6: best ratio=0.6915  plateau=0.18726  (51.3s)
+  chain  7: best ratio=0.5911  plateau=0.17961  (58.6s)
+  chain  8: best ratio=0.6212  plateau=0.18047  (65.9s)
+  chain  9: best ratio=0.6538  plateau=0.13125  (73.3s)
+  chain 10: best ratio=0.6084  plateau=0.21612  (80.6s)
+  chain 11: best ratio=0.6626  plateau=0.18975  (87.9s)
+  chain 12: best ratio=0.6495  plateau=0.17515  (95.2s)
+  chain 13: best ratio=0.5675  plateau=0.19219  (102.5s)
+  chain 14: best ratio=0.6702  plateau=0.17735  (109.8s)
+  chain 15: best ratio=0.6202  plateau=0.18637  (117.1s)
+  chain 16: best ratio=0.6258  plateau=0.17295  (124.4s)
+  chain 17: best ratio=0.6114  plateau=0.23049  (131.7s)
+  chain 18: best ratio=0.6458  plateau=0.16827  (139.0s)
+  chain 19: best ratio=0.6961  plateau=0.20241  (146.4s)
+  chain 20: best ratio=0.5707  plateau=0.19411  (153.8s)
+  chain 21: best ratio=0.6660  plateau=0.21570  (161.2s)
+  chain 22: best ratio=0.6078  plateau=0.16639  (168.5s)
+  chain 23: best ratio=0.6348  plateau=0.16055  (175.8s)
+
+  24 chains in 175.8s
+  finals: 24; intermediate: 360
+
+=== Envelope max ratio per plateau bin (ALL data) ===
+plateau bin               count  max ratio     median
+  [0.0000, 0.0005)          18      0.9499      0.8177
+  [0.0005, 0.0020)           0        --        --
+  [0.0020, 0.0050)           0        --        --
+  [0.0050, 0.0110)           1      0.9750      0.9750
+  [0.0110, 0.0200)           1      1.0000      1.0000
+  [0.0200, 0.0400)           0        --        --
+  [0.0400, 0.0800)           0        --        --
+  [0.0800, 0.1400)           9      0.9450      0.6929
+  [0.1400, 0.2000)          82      0.7732      0.6259
+  [0.2000, 0.5000)         167      0.7389      0.3148
+
+=== Killer: ratios > 0.90 by plateau ===
+  plateau=0.000239  ratio=0.9499  src=plateau_neighbor_0p95
+  plateau=0.007051  ratio=0.9750  src=corpus
+  plateau=0.011114  ratio=1.0000  src=corpus
+  plateau=0.125569  ratio=0.9450  src=corpus
+  total ratio>0.90: 4
+
+Saved.

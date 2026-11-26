@@ -1,0 +1,7 @@
+# Hadamard MaxDet Verification Log: pytest tests/test_feasibility.py
+# Date: 2026-11-26T20:06:10Z
+# Python: Python 3.14.8
+# NumPy / SymPy: 2.4.1 1.14.0
+
+............................................                             [100%]
+44 passed in 21.66s

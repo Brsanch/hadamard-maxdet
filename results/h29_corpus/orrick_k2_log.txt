@@ -1,0 +1,70 @@
+Orrick H29 |det| = 1,188,957,517,256,767,569,920
+Baseline       = 1,188,957,517,256,767,569,920
+TRIPLE-VERIFY: matches baseline ✓
+Saved orrick_n29.json
+
+=== k=2 enumeration of Orrick H29 (164836 pairs) ===
+Total k=2 pairs: 353220
+  progress: 10000/353220 (3%)  novel_dets=204  >baseline=0  top_ratio=0.9538  rate=1299/s  eta=264s
+  progress: 20000/353220 (6%)  novel_dets=235  >baseline=0  top_ratio=0.9538  rate=1301/s  eta=256s
+  progress: 30000/353220 (8%)  novel_dets=235  >baseline=0  top_ratio=0.9538  rate=1303/s  eta=248s
+  progress: 40000/353220 (11%)  novel_dets=235  >baseline=0  top_ratio=0.9538  rate=1305/s  eta=240s
+  progress: 50000/353220 (14%)  novel_dets=235  >baseline=0  top_ratio=0.9538  rate=1303/s  eta=233s
+  progress: 60000/353220 (17%)  novel_dets=235  >baseline=0  top_ratio=0.9538  rate=1303/s  eta=225s
+  progress: 70000/353220 (20%)  novel_dets=235  >baseline=0  top_ratio=0.9538  rate=1303/s  eta=217s
+  progress: 80000/353220 (23%)  novel_dets=235  >baseline=0  top_ratio=0.9538  rate=1302/s  eta=210s
+  progress: 90000/353220 (25%)  novel_dets=235  >baseline=0  top_ratio=0.9538  rate=1302/s  eta=202s
+  progress: 100000/353220 (28%)  novel_dets=235  >baseline=0  top_ratio=0.9538  rate=1302/s  eta=195s
+  progress: 110000/353220 (31%)  novel_dets=235  >baseline=0  top_ratio=0.9538  rate=1301/s  eta=187s
+  progress: 120000/353220 (34%)  novel_dets=235  >baseline=0  top_ratio=0.9538  rate=1301/s  eta=179s
+  progress: 130000/353220 (37%)  novel_dets=235  >baseline=0  top_ratio=0.9538  rate=1301/s  eta=172s
+  progress: 140000/353220 (40%)  novel_dets=255  >baseline=0  top_ratio=0.9538  rate=1301/s  eta=164s
+  progress: 150000/353220 (42%)  novel_dets=255  >baseline=0  top_ratio=0.9538  rate=1301/s  eta=156s
+  progress: 160000/353220 (45%)  novel_dets=278  >baseline=0  top_ratio=0.9538  rate=1302/s  eta=148s
+  progress: 170000/353220 (48%)  novel_dets=278  >baseline=0  top_ratio=0.9538  rate=1301/s  eta=141s
+  progress: 180000/353220 (51%)  novel_dets=278  >baseline=0  top_ratio=0.9538  rate=1302/s  eta=133s
+  progress: 190000/353220 (54%)  novel_dets=278  >baseline=0  top_ratio=0.9538  rate=1302/s  eta=125s
+  progress: 200000/353220 (57%)  novel_dets=278  >baseline=0  top_ratio=0.9538  rate=1302/s  eta=118s
+  progress: 210000/353220 (59%)  novel_dets=278  >baseline=0  top_ratio=0.9538  rate=1302/s  eta=110s
+  progress: 220000/353220 (62%)  novel_dets=278  >baseline=0  top_ratio=0.9538  rate=1302/s  eta=102s
+  progress: 230000/353220 (65%)  novel_dets=281  >baseline=0  top_ratio=0.9538  rate=1302/s  eta=95s
+  progress: 240000/353220 (68%)  novel_dets=281  >baseline=0  top_ratio=0.9538  rate=1302/s  eta=87s
+  progress: 250000/353220 (71%)  novel_dets=281  >baseline=0  top_ratio=0.9538  rate=1303/s  eta=79s
+  progress: 260000/353220 (74%)  novel_dets=281  >baseline=0  top_ratio=0.9538  rate=1302/s  eta=72s
+  progress: 270000/353220 (76%)  novel_dets=281  >baseline=0  top_ratio=0.9538  rate=1302/s  eta=64s
+  progress: 280000/353220 (79%)  novel_dets=281  >baseline=0  top_ratio=0.9538  rate=1303/s  eta=56s
+  progress: 290000/353220 (82%)  novel_dets=281  >baseline=0  top_ratio=0.9538  rate=1302/s  eta=49s
+  progress: 300000/353220 (85%)  novel_dets=281  >baseline=0  top_ratio=0.9538  rate=1303/s  eta=41s
+  progress: 310000/353220 (88%)  novel_dets=281  >baseline=0  top_ratio=0.9538  rate=1302/s  eta=33s
+  progress: 320000/353220 (91%)  novel_dets=281  >baseline=0  top_ratio=0.9538  rate=1303/s  eta=26s
+  progress: 330000/353220 (93%)  novel_dets=281  >baseline=0  top_ratio=0.9538  rate=1302/s  eta=18s
+  progress: 340000/353220 (96%)  novel_dets=281  >baseline=0  top_ratio=0.9538  rate=1302/s  eta=10s
+  progress: 350000/353220 (99%)  novel_dets=281  >baseline=0  top_ratio=0.9538  rate=1302/s  eta=2s
+
+Done: examined 353220 in 271s
+Distinct |det| values found: 281
+Matrices > BASELINE: 0
+Matrices = BASELINE: 0
+
+Top 20 distinct |det| values (none beat baseline):
+  ratio=0.9538  det=1,133,983,397,358,096,875,520  flips=(0, 1, 3, 5)
+  ratio=0.9467  det=1,125,566,670,035,679,707,136  flips=(0, 1, 1, 0)
+  ratio=0.9379  det=1,115,178,457,034,137,796,608  flips=(0, 1, 1, 7)
+  ratio=0.9326  det=1,108,809,041,763,119,398,912  flips=(0, 1, 1, 6)
+  ratio=0.9316  det=1,107,595,819,806,734,942,208  flips=(0, 1, 3, 15)
+  ratio=0.9311  det=1,106,989,208,828,542,713,856  flips=(0, 1, 1, 13)
+  ratio=0.9308  det=1,106,685,903,339,446,599,680  flips=(0, 1, 0, 7)
+  ratio=0.9272  det=1,102,439,626,492,101,001,216  flips=(0, 1, 3, 7)
+  ratio=0.9246  det=1,099,254,918,856,591,802,368  flips=(0, 1, 0, 6)
+  ratio=0.9244  det=1,099,103,266,112,043,745,280  flips=(0, 1, 11, 15)
+  ratio=0.9228  det=1,097,131,780,432,919,003,136  flips=(0, 1, 0, 11)
+  ratio=0.9223  det=1,096,525,169,454,726,774,784  flips=(0, 1, 7, 8)
+  ratio=0.9205  det=1,094,477,857,403,328,004,096  flips=(0, 1, 3, 6)
+  ratio=0.9186  det=1,092,203,066,235,107,147,776  flips=(0, 1, 3, 12)
+  ratio=0.9161  det=1,089,245,837,716,420,034,560  flips=(0, 1, 11, 12)
+  ratio=0.9150  det=1,087,880,963,015,487,520,768  flips=(0, 1, 7, 16)
+  ratio=0.9147  det=1,087,577,657,526,391,406,592  flips=(0, 1, 6, 15)
+  ratio=0.9136  det=1,086,288,609,197,732,921,344  flips=(0, 1, 7, 11)
+  ratio=0.9134  det=1,085,985,303,708,636,807,168  flips=(0, 1, 1, 15)
+  ratio=0.9123  det=1,084,696,255,379,978,321,920  flips=(0, 1, 12, 15)
+Done.

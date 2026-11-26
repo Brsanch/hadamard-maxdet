@@ -1,0 +1,78 @@
+
+=== Orrick H23 (record-holder) (n=23) ===
+  |det|     = 2,779,447,296,000,000  (ratio to baseline: 1.000000)
+  sv_min    = 3.810136
+  sv_max    = 6.289795
+  sv_cond   = 1.6508
+  hadamard_defect (n - sv_min^2) = 8.4829
+  plateau (var SV[4:18]) = 0.082326
+  |G| off-diag signature = {1: 208, 3: 45}
+  is 2-val (max |G|≤3): True
+  v_min concentration (max abs entry): 0.2959
+  v_min L4 (||v||_4^4): 0.0686
+
+=== Orrick H29 (record-holder) (n=29) ===
+  |det|     = 1,188,957,517,256,767,569,920  (ratio to baseline: 1.000000)
+  sv_min    = 4.000000
+  sv_max    = 7.738578
+  sv_cond   = 1.9346
+  hadamard_defect (n - sv_min^2) = 13.0000
+  plateau (var SV[5:23]) = 0.000000
+  |G| off-diag signature = {1: 393, 3: 4, 5: 9}
+  is 2-val (max |G|≤3): False
+  v_min concentration (max abs entry): 0.4082
+  v_min L4 (||v||_4^4): 0.1667
+
+=== H23 vs H29 cross-comparison ===
+feature                    H23 Orrick       H29 Orrick  ratio
+  sv_min                       3.8101           4.0000  1.050x
+  sv_max                       6.2898           7.7386  1.230x
+  hadamard_defect              8.4829          13.0000  1.533x
+  plateau                      0.0823           0.0000  0.000x
+  v_min_max                    0.2959           0.4082  1.380x
+  v_min_l4                     0.0686           0.1667  2.430x
+
+=== H29 k=2 neighborhood ratio histogram ===
+  n_pairs = 353220
+  Wall: 7s
+  Distribution:
+    p  0.0: 0.7527
+    p  1.0: 0.8108
+    p  5.0: 0.8348
+    p 10.0: 0.8448
+    p 25.0: 0.8571
+    p 50.0: 0.8673
+    p 75.0: 0.8788
+    p 90.0: 0.8878
+    p 95.0: 0.8937
+    p 99.0: 0.9089
+    p 99.5: 0.9186
+    p 99.9: 0.9311
+    p100.0: 0.9538
+
+=== H23 k=2 neighborhood ratio histogram (for comparison) ===
+  n_pairs = 139656
+  Distribution:
+    p  0.0: 0.6953
+    p  1.0: 0.7530
+    p  5.0: 0.7762
+    p 10.0: 0.7899
+    p 25.0: 0.8114
+    p 50.0: 0.8339
+    p 75.0: 0.8567
+    p 90.0: 0.8750
+    p 95.0: 0.8867
+    p 99.0: 0.9092
+    p 99.5: 0.9165
+    p 99.9: 0.9285
+    p100.0: 0.9605
+
+=== TOP END comparison: how steep is the cliff? ===
+percentile    H23 k=2 ratio    H29 k=2 ratio  diff
+  p99.00              0.9092           0.9089  +0.0002
+  p99.50              0.9165           0.9186  -0.0021
+  p99.90              0.9285           0.9311  -0.0025
+  p99.95              0.9335           0.9316  +0.0020
+  p99.99              0.9605           0.9379  +0.0226
+  p100.00             0.9605           0.9538  +0.0068
+Done.

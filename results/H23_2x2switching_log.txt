@@ -1,0 +1,22 @@
+
+=== H23_round3_record_00_r0.9810.json  base ratio=0.9810  (64009 2x2 switches in 2s) ===
+  best novel: ratio=0.8369  band [0.0050,0.0110)  flips=(11, 2, 12, 9)
+
+=== H23_recurse_record_0p9617.json  base ratio=0.9617  (64009 2x2 switches in 2s) ===
+  best novel: ratio=0.8563  band [0.0110,0.0200)  flips=(7, 1, 8, 14)
+
+=== H23_anchor_band_011_020_k2.json  base ratio=0.9605  (64009 2x2 switches in 2s) ===
+  best novel: ratio=0.8668  band [0.0400,0.0800)  flips=(3, 0, 4, 7)
+
+=== H23_orrick2003_record.json  base ratio=1.0000  (64009 2x2 switches in 2s) ===
+  best novel: ratio=0.8363  band [0.0020,0.0050)  flips=(11, 2, 12, 14)
+
+=== H23_smart_2val_best_new_class.json  base ratio=0.9750  (64009 2x2 switches in 2s) ===
+  best novel: ratio=0.8614  band [0.0200,0.0400)  flips=(11, 2, 12, 13)
+
+=== H23_attack_best.json  base ratio=0.9450  (64009 2x2 switches in 2s) ===
+  best novel: ratio=0.7960  band [0.0800,0.1400)  flips=(1, 11, 12, 22)
+
+>>> 2x2 SWITCHING ROUND BEST: 0.9810 via previous
+Saved 0 new ≥0.96 records.
+Done.

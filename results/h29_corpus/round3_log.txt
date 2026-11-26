@@ -1,0 +1,5 @@
+k=3 sample enum from Orrick H29: 3000000 samples, screen=0.950*baseline
+
+Done: 3000000 samples in 71s, passed_screen=0, above_baseline=0
+Best SVD ratio observed: 0.9144
+Done.

@@ -1,0 +1,28 @@
+Round 6: k=3 sample enum from 11 anchors, 600000 samples each
+  ratio=0.9810  H23_round3_record_00_r0.9810.json
+  ratio=0.9617  H23_recurse_record_0p9617.json
+  ratio=0.9605  H23_anchor_band_011_020_k2.json
+  ratio=0.9576  H23_anchor_band_020_040.json
+  ratio=0.9562  H23_round4_record_02_r0.9562.json
+  ratio=0.9539  H23_round4_record_01_r0.9539.json
+  ratio=0.9493  H23_anchor_band_04_08_smart2val.json
+  ratio=0.9461  H23_anchor_band_0005_002_smart2val.json
+  ratio=0.9423  H23_round3_record_01_r0.9423.json
+  ratio=0.9423  H23_round4_record_00_r0.9423.json
+  ratio=0.9402  H23_round4_record_03_r0.9402.json
+  anchor 0.9810: done in 16s, 0 new in-anchor improvements, best=0.9810
+  anchor 0.9617: done in 16s, 0 new in-anchor improvements, best=0.9617
+  anchor 0.9605: done in 17s, 0 new in-anchor improvements, best=0.9605
+  anchor 0.9576: done in 17s, 0 new in-anchor improvements, best=0.9576
+  anchor 0.9562: done in 17s, 0 new in-anchor improvements, best=0.9572
+  anchor 0.9539: done in 17s, 0 new in-anchor improvements, best=0.9539
+  anchor 0.9493: done in 17s, 0 new in-anchor improvements, best=0.9493
+  anchor 0.9461: done in 16s, 0 new in-anchor improvements, best=0.9461
+  anchor 0.9423: done in 18s, 0 new in-anchor improvements, best=0.9423
+  anchor 0.9423: done in 16s, 0 new in-anchor improvements, best=0.9423
+  anchor 0.9402: done in 17s, 0 new in-anchor improvements, best=0.9605
+
+Total: 6600000 samples in 184s
+>>> ROUND 6 GLOBAL BEST: 0.9810 via previous_round
+Saved 0 new ≥0.96 records.
+Done.
